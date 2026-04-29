@@ -1,0 +1,26 @@
+baseURL = "https://obsidian-plugins.pages.dev/"
+languageCode = "en-us"
+title = "Obsidian Plugins Guide"
+theme = "PaperMod"
+
+[params]
+  description = "The best Obsidian plugins, themes, and tips to supercharge your note-taking."
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "Obsidian Plugins & Tips"
+    Content = "Discover the best plugins, themes, and workflows to level up your vault."
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
