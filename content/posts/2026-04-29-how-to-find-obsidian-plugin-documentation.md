@@ -189,3 +189,12 @@ Finding Obsidian plugin documentation isn't complicated once you know the hierar
 For users who want to move beyond hunting for plugin docs one at a time — and build a systematic, confident Obsidian workflow from the ground up — a structured course is worth the investment. [The Sweet Setup's "To Obsidian and Beyond" course](URL_PLACEHOLDER_10) walks through core and community plugins with the kind of depth that scattered forum posts never deliver. If you'd rather explore a broad library of options, [Udemy's Obsidian productivity courses](URL_PLACEHOLDER_11) regularly go on sale and cover everything from basic setup to advanced plugin stacking.
 
 The documentation exists. Now you know exactly where to look.
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
