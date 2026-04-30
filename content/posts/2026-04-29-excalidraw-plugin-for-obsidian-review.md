@@ -195,3 +195,12 @@ All data stays local in your vault — Excalidraw in Obsidian has no cloud compo
 
 **Q5: How do I handle Excalidraw on mobile where touch input is imprecise?**
 For serious mobile use, an iPad with Apple Pencil or an Android tablet with a compatible stylus is the practical solution. On a phone, limit yourself to viewing and simple edits. The plugin's mobile rendering is functional; the limitation is touch precision on the freehand tool, not the app itself.
+
+---
+
+## Related Reading
+
+- [Obsidian Canvas vs. Excalidraw: Which Visual Tool Wins?](/posts/obsidian-canvas-vs-excalidraw-for-mind-mapping/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
