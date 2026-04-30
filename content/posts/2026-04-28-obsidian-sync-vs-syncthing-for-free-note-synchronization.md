@@ -235,3 +235,12 @@ If Syncthing fits your setup, [download it now](URL_PLACEHOLDER_12) — it is fr
 For Syncthing users who want that always-on reliability node, a [Raspberry Pi starter kit](URL_PLACEHOLDER_14) is the cleanest home solution, or spin up a [$5/month DigitalOcean droplet](URL_PLACEHOLDER_15) if you need something accessible from anywhere without port forwarding headaches.
 
 Your notes are your thinking. Make sure they follow you reliably, whatever that takes.
+
+---
+
+## Related Reading
+
+- [The Core Question: What Problem Does Obsidian Sync Solve?](/posts/is-obsidian-sync-worth-it-review/)
+- [Why Sync Obsidian with Google Drive? (The Free & Powerful Alternative)](/posts/how-to-sync-obsidian-with-google-drive-using-a-plugin/)
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
+- [What is Dataview and Why is it a Game-Changer for Your Notes?](/posts/how-to-use-obsidian-dataview-for-beginners/)
