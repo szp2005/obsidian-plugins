@@ -267,3 +267,12 @@ Start with one plugin. Install Templater, build a single literature note templat
 ---
 
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All plugin recommendations are based on practical research use — none are sponsored.*
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
