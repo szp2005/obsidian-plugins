@@ -392,3 +392,12 @@ The productivity systems taught in courses like [Building a Second Brain](URL_PL
 - If you want the full automation stack with external data, [start a free Make.com account](URL_PLACEHOLDER_7) and connect it to your vault.
 
 The templates in this guide are copy-paste ready. The only thing left is to open Obsidian and create today's note.
+
+---
+
+## Related Reading
+
+- [What is the Periodic Notes Plugin (And Why It's a Game-Changer)](/posts/obsidian-periodic-notes-plugin-review/)
+- [What is Dataview and Why is it a Game-Changer for Your Notes?](/posts/how-to-use-obsidian-dataview-for-beginners/)
+- [What is the Obsidian Full Calendar Plugin?](/posts/obsidian-full-calendar-plugin-review/)
+- [What is the Obsidian Projects Plugin (And Who is it For?)](/posts/obsidian-projects-plugin-review-and-setup/)
