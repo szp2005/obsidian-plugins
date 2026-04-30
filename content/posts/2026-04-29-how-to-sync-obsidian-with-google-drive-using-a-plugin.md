@@ -193,3 +193,12 @@ Syncing Obsidian with Google Drive using Remotely Save is the most practical fre
 The full process takes 10 minutes: install Remotely Save, authenticate with Google, set your auto-sync interval, then repeat on each device with the same Remote Base Dir name. If anything breaks, 90% of issues trace back to either a stale OAuth token (re-authenticate) or a mismatched folder name (check capitalization).
 
 **Ready to go further?** Install [Remotely Save from the Obsidian community plugin browser](URL_PLACEHOLDER_5), pair it with a [Google Workspace account](URL_PLACEHOLDER_6) for expanded storage and team sharing, or explore [pCloud](URL_PLACEHOLDER_7) if you want a Google-free, end-to-end encrypted alternative. Your notes, your infrastructure, your rules.
+
+---
+
+## Related Reading
+
+- [The Core Question: What Problem Does Obsidian Sync Solve?](/posts/is-obsidian-sync-worth-it-review/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
