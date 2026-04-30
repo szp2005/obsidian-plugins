@@ -155,3 +155,12 @@ The Obsidian Git plugin is, simply put, the best free infrastructure you can put
 The setup takes one afternoon. The payoff lasts as long as you use Obsidian.
 
 Ready to get started? [Install the Obsidian Git plugin from the community plugins directory](URL_PLACEHOLDER_1), set up your [free private GitHub repository](URL_PLACEHOLDER_4), and if you want a solid Git foundation before you dive in, [this beginner Git course](URL_PLACEHOLDER_3) will have you comfortable with the concepts in an evening. Your future self — the one who needs to recover a note at 11pm on a deadline — will thank you.
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Full Calendar Plugin?](/posts/obsidian-full-calendar-plugin-review/)
+- [What is the Obsidian Projects Plugin (And Who is it For?)](/posts/obsidian-projects-plugin-review-and-setup/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
