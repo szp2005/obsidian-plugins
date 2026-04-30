@@ -355,3 +355,12 @@ The `.obsidian/snippets` folder is yours. Fill it.
 ---
 
 **Ready to go deeper?** If you want to move from copy-pasting to writing your own rules from scratch, [this beginner CSS course on Udemy](URL_PLACEHOLDER_1) is the fastest structured path — most students are writing confident CSS within a few hours. And if you decide you'd rather start with a premium professionally designed Obsidian theme as your base, [check out these Gumroad options](URL_PLACEHOLDER_4) built specifically for PKM workflows. Either way, your vault, your rules.
+
+---
+
+## Related Reading
+
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
+- [What is Dataview and Why is it a Game-Changer for Your Notes?](/posts/how-to-use-obsidian-dataview-for-beginners/)
+- [The Core Question: What Problem Does Obsidian Sync Solve?](/posts/is-obsidian-sync-worth-it-review/)
+- [Obsidian Canvas vs. Excalidraw: Which Visual Tool Wins?](/posts/obsidian-canvas-vs-excalidraw-for-mind-mapping/)
