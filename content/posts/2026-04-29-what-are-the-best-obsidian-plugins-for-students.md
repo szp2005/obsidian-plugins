@@ -307,3 +307,12 @@ If you prefer video instruction to written guides, there are excellent structure
 ---
 
 *Plugin availability and features change with Obsidian updates. All plugin information in this guide was verified against the current community plugin directory. Always check the plugin's GitHub page for the latest compatibility notes before installing.*
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
