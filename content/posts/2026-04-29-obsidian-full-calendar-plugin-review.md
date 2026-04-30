@@ -262,3 +262,12 @@ Yes. Local events are standard markdown files with frontmatter. They remain in y
 
 **Q: How is this different from using Obsidian's built-in daily notes calendar?**
 The built-in calendar plugin only lets you navigate to daily notes by date—it shows no events, allows no scheduling, and has no external sync. Full Calendar is a separate, more capable system that treats notes as schedulable events with times, drag-and-drop, and live sync.
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Projects Plugin (And Who is it For?)](/posts/obsidian-projects-plugin-review-and-setup/)
+- [What is the Obsidian Git Plugin? (A Simple Explanation)](/posts/what-is-the-obsidian-git-plugin-for/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
