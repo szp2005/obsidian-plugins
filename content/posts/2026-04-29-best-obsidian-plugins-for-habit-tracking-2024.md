@@ -340,3 +340,12 @@ Build the system. Ship it this week. Improve it next month.
 ---
 
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. All recommendations are based on genuine testing and use.*
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
+- [Why Use Community Plugins on Obsidian Mobile?](/posts/how-to-install-community-plugins-in-obsidian-mobile/)
