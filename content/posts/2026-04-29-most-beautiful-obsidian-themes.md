@@ -313,3 +313,12 @@ Your vault should look like *yours*. Go make it that way.
 ---
 
 *Affiliate disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. We only recommend products we have independently evaluated.*
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Minimal Theme? An Overview](/posts/minimal-theme-obsidian-review/)
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
