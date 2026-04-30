@@ -246,3 +246,12 @@ If you want your vault to sync seamlessly across every device without touching a
 And if you've assembled the tools but want a proven methodology to run on top of them, [Readwise](URL_PLACEHOLDER_4) is worth a look for anyone who reads heavily—the Obsidian integration alone pays for the subscription if you've ever lost a highlight you needed.
 
 The best vault is the one you actually use. Pick the plugins that reduce friction for your specific workflow, and ignore the rest.
+
+---
+
+## Related Reading
+
+- [Why Use Community Plugins on Obsidian Mobile?](/posts/how-to-install-community-plugins-in-obsidian-mobile/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
