@@ -206,3 +206,12 @@ For anyone whose Obsidian vault represents real, irreplaceable thinking, that's 
 **Ready to try it?** [Start your Obsidian Sync free trial](URL_PLACEHOLDER_5) — 2 months free, no commitment. If you decide it's not for you, your notes are still yours and you can switch to any alternative with zero friction.
 
 *If you value E2EE for your notes, consider extending that protection to your broader digital life. [Sync.com](URL_PLACEHOLDER_3) offers zero-knowledge encrypted cloud storage for everything else, and [NordVPN](URL_PLACEHOLDER_4) secures your connection on the networks where you do your best work.*
+
+---
+
+## Related Reading
+
+- [Why Sync Obsidian with Google Drive? (The Free & Powerful Alternative)](/posts/how-to-sync-obsidian-with-google-drive-using-a-plugin/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
