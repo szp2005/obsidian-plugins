@@ -201,3 +201,12 @@ The Obsidian Excalidraw plugin by Zsolt Viczián is one of the most downloaded c
 **Q5: Can I use both Canvas and Excalidraw in the same vault without conflicts?**
 
 Yes, completely. They use different file extensions, different rendering systems, and separate settings panels. Many users maintain a `/Maps` folder with both `.canvas` and `.excalidraw` files side by side. There are no known conflicts between the two.
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [What is Obsidian Canvas? The Infinite Whiteboard in Your Vault](/posts/what-is-the-obsidian-canvas-plugin/)
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
