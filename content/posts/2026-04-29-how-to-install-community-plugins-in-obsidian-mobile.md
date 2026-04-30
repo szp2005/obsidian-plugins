@@ -185,3 +185,12 @@ Start simple: disable Restricted Mode, install Commander and QuickAdd, and see h
 If syncing settings across devices is causing you headaches, [Obsidian Sync](URL_PLACEHOLDER_2) removes that entire category of problems and is the official, tested solution — worth considering if you rely on Obsidian seriously across multiple devices.
 
 Got a plugin question not covered here? Drop it in the comments or reach out — this guide is updated as the Obsidian mobile app evolves.
+
+---
+
+## Related Reading
+
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
