@@ -354,3 +354,12 @@ Start with the five-minute tutorial. Add your three most important locations. Th
 ---
 
 *Found this guide useful? Bookmark it for reference as you build out your vault, and share it with any Obsidian users who are still working in a purely text-based setup—they're missing half the picture.*
+
+---
+
+## Related Reading
+
+- [The Power of Spaced Repetition in Your Second Brain](/posts/obsidian-anki-vs-spaced-repetition-plugin/)
+- [Why Manage Projects in Obsidian? The Power of a Unified System](/posts/using-obsidian-tasks-plugin-for-project-management/)
+- [Introduction: Beyond Default - Choosing Your Ideal Obsidian Interface](/posts/things-theme-vs-minimal-theme-obsidian/)
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
