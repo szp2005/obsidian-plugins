@@ -205,3 +205,12 @@ A: Things has a warmer, more editorial default look and requires less initial co
 
 **Q: Can I use Minimal theme on Obsidian mobile?**
 A: Yes. Mobile rendering is explicitly supported and the theme looks consistent across iOS and Android. Focus mode and most Style Settings options also apply on mobile, though the UI for accessing them differs slightly.
+
+---
+
+## Related Reading
+
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
+- [Why Your Obsidian Theme is More Than Just Eye Candy](/posts/most-beautiful-obsidian-themes/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
