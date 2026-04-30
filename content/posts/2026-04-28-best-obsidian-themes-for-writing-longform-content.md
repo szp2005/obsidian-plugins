@@ -317,3 +317,12 @@ Pick the theme that matches your archetype. Configure it once. Then write.
 ---
 
 *Prices and feature availability for all plugins and themes mentioned are accurate as of publication. All community themes are free and available via Obsidian's built-in Community Themes browser under Settings → Appearance.*
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Minimal Theme? An Overview](/posts/minimal-theme-obsidian-review/)
+- [Obsidian Canvas vs. Excalidraw: Which Visual Tool Wins?](/posts/obsidian-canvas-vs-excalidraw-for-mind-mapping/)
+- [Why Your Obsidian Theme is More Than Just Eye Candy](/posts/most-beautiful-obsidian-themes/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
