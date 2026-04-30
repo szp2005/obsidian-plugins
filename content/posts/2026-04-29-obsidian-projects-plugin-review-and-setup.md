@@ -320,3 +320,12 @@ Start with the content pipeline or GTD template, spend fifteen minutes getting y
 
 ---
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, this site earns a commission at no additional cost to you.*
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Full Calendar Plugin?](/posts/obsidian-full-calendar-plugin-review/)
+- [What is the Obsidian Git Plugin? (A Simple Explanation)](/posts/what-is-the-obsidian-git-plugin-for/)
+- [Why Manage Projects in Obsidian? The Power of a Unified System](/posts/using-obsidian-tasks-plugin-for-project-management/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
