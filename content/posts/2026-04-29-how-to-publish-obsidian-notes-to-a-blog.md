@@ -366,3 +366,12 @@ Ready to buy your domain and make it official? [Grab a `.com` for under $10 on N
 ---
 
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you.*
+
+---
+
+## Related Reading
+
+- [What is Obsidian Canvas? The Infinite Whiteboard in Your Vault](/posts/what-is-the-obsidian-canvas-plugin/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
