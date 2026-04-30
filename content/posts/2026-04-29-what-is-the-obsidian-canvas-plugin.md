@@ -215,3 +215,12 @@ Start small: build a single project dashboard or a homepage canvas this week. On
 For structured guidance on building a complete PKM system around Canvas and Obsidian, [this Udemy course on Obsidian for Personal Knowledge Management](URL_PLACEHOLDER_3) is one of the most comprehensive paid resources available — it covers daily notes, Canvas dashboards, and plugin integrations in a single learning path. And if you want the conceptual foundations of visual thinking that make Canvas genuinely useful, [The Back of the Napkin](URL_PLACEHOLDER_1) by Dan Roam remains the clearest book on the subject.
 
 Your vault already has the raw material. Canvas gives you the workspace to see what it all means.
+
+---
+
+## Related Reading
+
+- [Why Turn Your Obsidian Vault into a Public Blog?](/posts/how-to-publish-obsidian-notes-to-a-blog/)
+- [Obsidian Canvas vs. Excalidraw: Which Visual Tool Wins?](/posts/obsidian-canvas-vs-excalidraw-for-mind-mapping/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
