@@ -174,3 +174,12 @@ The Obsidian theme store browser is a two-part system: the in-app browser for in
 If you want to take your Obsidian setup from functional to genuinely enjoyable to use every day, aesthetics matter more than most productivity writers admit. A vault that looks right is a vault you actually open. And that is the point of [building a solid personal knowledge system](URL_PLACEHOLDER_5) in the first place.
 
 > 🛠️ **Ready to level up beyond themes?** [Explore Obsidian courses on Udemy](URL_PLACEHOLDER_3) covering automation, templates, Dataview, and advanced customization — everything you need to turn Obsidian into a second brain that actually works for you.
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
