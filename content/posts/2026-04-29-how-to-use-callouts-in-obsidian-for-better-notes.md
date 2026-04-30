@@ -339,3 +339,12 @@ If you want to go further and build a complete, linked PKM system around these i
 ---
 
 *Some links in this article are affiliate links. They cost you nothing extra and help fund future guides like this one.*
+
+---
+
+## Related Reading
+
+- [What is Dataview and Why is it a Game-Changer for Your Notes?](/posts/how-to-use-obsidian-dataview-for-beginners/)
+- [What is the Periodic Notes Plugin (And Why It's a Game-Changer)](/posts/obsidian-periodic-notes-plugin-review/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
