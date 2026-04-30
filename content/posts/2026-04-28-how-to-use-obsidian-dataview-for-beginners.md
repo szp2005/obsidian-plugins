@@ -402,3 +402,12 @@ The three things that make the biggest difference early on: consistent field nam
 - If you want your organized vault available everywhere, [Obsidian Sync](URL_PLACEHOLDER_4) is the official, end-to-end encrypted option — your Dataview dashboards work identically on every device.
 
 Start with one query. Everything else follows from there.
+
+---
+
+## Related Reading
+
+- [What is the Periodic Notes Plugin (And Why It's a Game-Changer)](/posts/obsidian-periodic-notes-plugin-review/)
+- [What Are Obsidian Callouts (And Why They Are a Game-Changer)](/posts/how-to-use-callouts-in-obsidian-for-better-notes/)
+- [Why Your Daily Notes Need the Templater Plugin](/posts/obsidian-templater-plugin-tutorial-for-daily-notes/)
+- [Why Your Theme is Your Most Important Writing Tool in Obsidian](/posts/best-obsidian-themes-for-writing-longform-content/)
