@@ -231,3 +231,12 @@ Pick Things, open your vault, start working. Pick Minimal, spend twenty minutes 
 If you're building a serious PKM practice, aesthetics are the easy part. System, habit, and workflow come first — and [a structured Obsidian course](URL_PLACEHOLDER_6) can accelerate that by months. Pair whichever theme you choose with [Obsidian Sync](URL_PLACEHOLDER_7) to keep it consistent across every device, and your setup becomes something you actually look forward to opening each morning.
 
 That's the real goal.
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
