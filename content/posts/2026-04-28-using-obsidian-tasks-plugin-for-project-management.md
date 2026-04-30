@@ -517,3 +517,12 @@ Your notes and your tasks should live together. Now they can.
 ---
 
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. We only recommend tools we use and trust.*
+
+---
+
+## Related Reading
+
+- [What is the Obsidian Projects Plugin (And Who is it For?)](/posts/obsidian-projects-plugin-review-and-setup/)
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Build a Zettelkasten in Obsidian?](/posts/setting-up-a-zettelkasten-in-obsidian-with-plugins/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
