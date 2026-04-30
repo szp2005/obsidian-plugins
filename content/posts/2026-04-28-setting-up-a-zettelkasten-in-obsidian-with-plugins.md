@@ -468,3 +468,12 @@ Now close this tab and set up the vault. The reading is the easy part.
 ---
 
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. We only recommend tools we've actually used.*
+
+---
+
+## Related Reading
+
+- [What is Excalidraw and Why Use It in Obsidian?](/posts/excalidraw-plugin-for-obsidian-review/)
+- [Why Track Habits in Obsidian in 2024?](/posts/best-obsidian-plugins-for-habit-tracking-2024/)
+- [What Are Obsidian Community Plugins?](/posts/obsidian-community-plugins-list/)
+- [Why Use Community Plugins on Obsidian Mobile?](/posts/how-to-install-community-plugins-in-obsidian-mobile/)
