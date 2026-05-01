@@ -1,5 +1,6 @@
 ---
 title: "Introduction: Beyond Default - Choosing Your Ideal Obsidian Interface"
+author: "Alex Chen"
 date: 2026-04-29
 slug: things-theme-vs-minimal-theme-obsidian
 description: "Provide a detailed side-by-side feature comparison table covering aspects often overlooked in forum discussions, such as mobile experience, specific plugin styling (Dataview, Kanban), and available helper classes."
@@ -203,25 +204,6 @@ Both themes are free. Both are production-quality. There is no wrong answer — 
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Can I use both Things and Minimal at the same time in Obsidian?**
-No. Obsidian loads one active theme at a time. However, you can switch between them instantly via Settings → Appearance. Some users maintain separate vault profiles with different themes for different projects, which is a legitimate workaround.
-
-**Q2: Does Things theme work without the Style Settings plugin?**
-Yes, and unlike Minimal, it works well without it. Things ships as a complete visual system. Style Settings adds some minor options but is not required for the full experience.
-
-**Q3: Will either theme break when Obsidian updates?**
-Minimal is maintained by an Obsidian co-founder and updates quickly after major app releases. Things is community-maintained with a slower update cadence — check the [GitHub repository](URL_PLACEHOLDER_1) for the last commit date before relying on it for a production vault.
-
-**Q4: Which theme performs better on mobile?**
-Minimal has explicit mobile-specific settings in Style Settings, including touch target sizes and sidebar behavior. Things renders cleanly on mobile but offers no mobile-specific configuration options.
-
-**Q5: Are there themes that combine elements of both Things and Minimal?**
-Yes. AnuPpuccin offers customizable color schemes with built-in alternate checkbox styling — it sits somewhere between the two in terms of flexibility vs. out-of-the-box completeness. Ebullient and Border themes also draw from both design languages and are worth exploring if neither Things nor Minimal clicks.
-
----
-
 ## Conclusion
 
 The Things vs. Minimal debate in Obsidian isn't really about looks. It's about whether you want a theme that makes decisions for you (Things) or one that executes your decisions with precision (Minimal).
@@ -233,6 +215,28 @@ If you're building a serious PKM practice, aesthetics are the easy part. System,
 That's the real goal.
 
 ---
+
+## Frequently Asked Questions
+
+### Can I use both Things and Minimal at the same time in Obsidian?
+
+No. Obsidian loads one active theme at a time. However, you can switch between them instantly via Settings → Appearance. Some users maintain separate vault profiles with different themes for different projects, which is a legitimate workaround.
+
+### Does Things theme work without the Style Settings plugin?
+
+Yes, and unlike Minimal, it works well without it. Things ships as a complete visual system. Style Settings adds some minor options but is not required for the full experience.
+
+### Will either theme break when Obsidian updates?
+
+Minimal is maintained by an Obsidian co-founder and updates quickly after major app releases. Things is community-maintained with a slower update cadence — check the [GitHub repository](URL_PLACEHOLDER_1) for the last commit date before relying on it for a production vault.
+
+### Which theme performs better on mobile?
+
+Minimal has explicit mobile-specific settings in Style Settings, including touch target sizes and sidebar behavior. Things renders cleanly on mobile but offers no mobile-specific configuration options.
+
+### Are there themes that combine elements of both Things and Minimal?
+
+Yes. AnuPpuccin offers customizable color schemes with built-in alternate checkbox styling — it sits somewhere between the two in terms of flexibility vs. out-of-the-box completeness. Ebullient and Border themes also draw from both design languages and are worth exploring if neither Things nor Minimal clicks.
 
 ## Related Reading
 

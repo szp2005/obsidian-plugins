@@ -1,5 +1,6 @@
 ---
 title: "What Are Obsidian Callouts (And Why They Are a Game-Changer)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-use-callouts-in-obsidian-for-better-notes
 description: "Provide a 'copy-paste' CSS snippet library for 5-7 non-standard, workflow-oriented callouts (e.g., 'Action Item', 'Key Insight', 'Project Goal') that users can immediately implement."
@@ -309,25 +310,6 @@ Five callouts designed for real PKM workflows. Copy each block into your `custom
 
 ---
 
-## FAQ
-
-**Q: Do callouts break if I export my notes to plain Markdown?**
-The `> [!TYPE]` syntax is just a blockquote with a specific bracket notation. In plain Markdown editors that don't support callouts, it renders as a standard blockquote — readable, just not styled.
-
-**Q: Can I use callouts inside tables or other complex structures?**
-No. Callouts are block-level elements. They cannot be placed inside a Markdown table cell. Use them before or after tables to annotate table content.
-
-**Q: My custom callout icon isn't showing. What's wrong?**
-Obsidian uses [Lucide icons](https://lucide.dev). The icon name in CSS must match exactly — `lucide-check-square`, not `lucide-checksquare`. Check the Lucide site for the precise name string.
-
-**Q: Are callouts the same as admonitions?**
-Functionally yes. "Admonitions" was the term used with the community plugin of that name. Obsidian's native callouts replaced that plugin in version 0.14 and are built into core — no plugin needed.
-
-**Q: Will callouts slow down Obsidian in a large vault?**
-No meaningful impact has been documented for normal vault sizes (under 10,000 notes). CSS snippets are loaded once at startup and do not affect note-opening or search speed.
-
----
-
 ## Conclusion
 
 Callouts are one of the highest-leverage formatting decisions you can make in Obsidian. The syntax takes two minutes to learn. The five custom callouts in this guide take five minutes to install. The return — notes you can scan in seconds, templates that enforce consistent structure, and visual signals that survive the gap between writing and reviewing — lasts as long as you keep the vault.
@@ -341,6 +323,28 @@ If you want to go further and build a complete, linked PKM system around these i
 *Some links in this article are affiliate links. They cost you nothing extra and help fund future guides like this one.*
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Do callouts break if I export my notes to plain Markdown?
+
+The `> [!TYPE]` syntax is just a blockquote with a specific bracket notation. In plain Markdown editors that don't support callouts, it renders as a standard blockquote — readable, just not styled.
+
+### Q: Can I use callouts inside tables or other complex structures?
+
+No. Callouts are block-level elements. They cannot be placed inside a Markdown table cell. Use them before or after tables to annotate table content.
+
+### Q: My custom callout icon isn't showing. What's wrong?
+
+Obsidian uses [Lucide icons](https://lucide.dev). The icon name in CSS must match exactly — `lucide-check-square`, not `lucide-checksquare`. Check the Lucide site for the precise name string.
+
+### Q: Are callouts the same as admonitions?
+
+Functionally yes. "Admonitions" was the term used with the community plugin of that name. Obsidian's native callouts replaced that plugin in version 0.14 and are built into core — no plugin needed.
+
+### Q: Will callouts slow down Obsidian in a large vault?
+
+No meaningful impact has been documented for normal vault sizes (under 10,000 notes). CSS snippets are loaded once at startup and do not affect note-opening or search speed.
 
 ## Related Reading
 

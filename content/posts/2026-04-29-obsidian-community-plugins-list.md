@@ -1,5 +1,6 @@
 ---
 title: "What Are Obsidian Community Plugins?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-community-plugins-list
 description: "Create a more user-friendly experience than the official docs by categorizing plugins by user persona and workflow (e.g., 'For Writers', 'For Students', 'For Developers')."
@@ -216,25 +217,6 @@ Turns your notes into a flashcard review system using the SM-2 algorithm (the sa
 
 ---
 
-## Frequently Asked Questions
-
-**Are community plugins safe to use?**
-Generally yes, for popular plugins. Obsidian's team does a basic security review, and high-download plugins have been scrutinized by the community. Check the plugin's GitHub for recent commits and open issues before installing anything with under 1,000 downloads. Never install a plugin shared outside the official browser.
-
-**How many plugins are too many?**
-Obsidian loads all enabled plugins on startup. In practice, most users see no performance hit below 30–40 plugins. Above 50–60, startup time and UI lag become noticeable on older hardware. The rule of thumb: if you haven't used a plugin in 30 days, disable it.
-
-**Do community plugins work on Obsidian Mobile?**
-Most do, with exceptions. Plugins relying on Node.js modules or system-level access (like Obsidian Git) do not work on iOS/Android. Always check the plugin's README for mobile compatibility notes before building a workflow around it on mobile. Editing Toolbar, Tasks, Templater, and Calendar all work reliably on mobile.
-
-**What should I do if a plugin breaks after an update?**
-First, check the plugin's GitHub Issues page—someone else probably already reported it. Temporarily disable the plugin. If you need the functionality immediately, roll back via the [BRAT plugin](URL_PLACEHOLDER_5), which lets you install specific older versions directly from GitHub. Most breaking issues are fixed within days by active maintainers.
-
-**What is the difference between Dataview and the native Properties feature?**
-Obsidian's native Properties (introduced in v1.4) lets you add structured YAML fields to notes with a GUI. Dataview reads those fields and lets you *query* across them. They complement each other: use Properties to add structured data, use Dataview to surface and display that data across your vault.
-
----
-
 ## Conclusion
 
 The Obsidian community plugins list is not a feature—it's an ecosystem. The plugins covered here can turn a blank vault into a writing studio, a student knowledge base, a project tracker, or a reading system depending on which ones you combine.
@@ -248,6 +230,28 @@ And if you've assembled the tools but want a proven methodology to run on top of
 The best vault is the one you actually use. Pick the plugins that reduce friction for your specific workflow, and ignore the rest.
 
 ---
+
+## Frequently Asked Questions
+
+### Are community plugins safe to use?
+
+Generally yes, for popular plugins. Obsidian's team does a basic security review, and high-download plugins have been scrutinized by the community. Check the plugin's GitHub for recent commits and open issues before installing anything with under 1,000 downloads. Never install a plugin shared outside the official browser.
+
+### How many plugins are too many?
+
+Obsidian loads all enabled plugins on startup. In practice, most users see no performance hit below 30–40 plugins. Above 50–60, startup time and UI lag become noticeable on older hardware. The rule of thumb: if you haven't used a plugin in 30 days, disable it.
+
+### Do community plugins work on Obsidian Mobile?
+
+Most do, with exceptions. Plugins relying on Node.js modules or system-level access (like Obsidian Git) do not work on iOS/Android. Always check the plugin's README for mobile compatibility notes before building a workflow around it on mobile. Editing Toolbar, Tasks, Templater, and Calendar all work reliably on mobile.
+
+### What should I do if a plugin breaks after an update?
+
+First, check the plugin's GitHub Issues page—someone else probably already reported it. Temporarily disable the plugin. If you need the functionality immediately, roll back via the [BRAT plugin](URL_PLACEHOLDER_5), which lets you install specific older versions directly from GitHub. Most breaking issues are fixed within days by active maintainers.
+
+### What is the difference between Dataview and the native Properties feature?
+
+Obsidian's native Properties (introduced in v1.4) lets you add structured YAML fields to notes with a GUI. Dataview reads those fields and lets you *query* across them. They complement each other: use Properties to add structured data, use Dataview to surface and display that data across your vault.
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "What is Obsidian Canvas? The Infinite Whiteboard in Your Vault"
+author: "Alex Chen"
 date: 2026-04-29
 slug: what-is-the-obsidian-canvas-plugin
 description: "Provide a gallery of inspirational, real-world canvas examples (e.g., project dashboards, storyboards, research maps) that go beyond simple mind maps."
@@ -187,25 +188,6 @@ See the full comparison table in the next section. The short version:
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Is Obsidian Canvas completely free?**
-Yes. Canvas is a core plugin included with every Obsidian installation. You don't need Obsidian Sync or Obsidian Publish to use it. The `.canvas` files sync fine with any third-party sync solution (iCloud, Dropbox, Syncthing).
-
-**Q2: Does Canvas work on mobile?**
-Yes, but with limitations. The Obsidian mobile app supports Canvas. Panning and zooming work via touch gestures. Creating and editing cards works. However, performance on complex canvases with many embedded notes is noticeably slower on phones than on desktop.
-
-**Q3: Can I share a Canvas with someone else?**
-You can copy the `.canvas` file and send it. The recipient needs Obsidian and the same notes (with matching filenames) in their vault for note cards to resolve. If you use Obsidian Publish, canvases are not currently publishable. For sharing visual boards externally, take a screenshot or export to PDF.
-
-**Q4: What's the difference between Canvas and the Graph View?**
-Graph view is auto-generated based on your existing links — you can't manually position nodes or add arbitrary connections. Canvas is entirely manual and intentional. Think of graph view as *discovering* structure in your existing notes, and Canvas as *building* new structure for a specific purpose.
-
-**Q5: Should I use Canvas or Excalidraw?**
-Use Canvas when your primary need is surfacing and connecting existing vault notes visually. Use Excalidraw when you need freehand drawing, custom shapes, or presentation-quality diagrams. They solve different problems and both can coexist in the same vault without conflict.
-
----
-
 ## Conclusion {#conclusion}
 
 Obsidian Canvas is one of the most practical additions to Obsidian in years precisely because it doesn't ask you to change your workflow. Your notes stay notes. Canvas just gives them a spatial home where relationships become visible instead of buried in link lists.
@@ -217,6 +199,28 @@ For structured guidance on building a complete PKM system around Canvas and Obsi
 Your vault already has the raw material. Canvas gives you the workspace to see what it all means.
 
 ---
+
+## Frequently Asked Questions
+
+### Is Obsidian Canvas completely free?
+
+Yes. Canvas is a core plugin included with every Obsidian installation. You don't need Obsidian Sync or Obsidian Publish to use it. The `.canvas` files sync fine with any third-party sync solution (iCloud, Dropbox, Syncthing).
+
+### Does Canvas work on mobile?
+
+Yes, but with limitations. The Obsidian mobile app supports Canvas. Panning and zooming work via touch gestures. Creating and editing cards works. However, performance on complex canvases with many embedded notes is noticeably slower on phones than on desktop.
+
+### Can I share a Canvas with someone else?
+
+You can copy the `.canvas` file and send it. The recipient needs Obsidian and the same notes (with matching filenames) in their vault for note cards to resolve. If you use Obsidian Publish, canvases are not currently publishable. For sharing visual boards externally, take a screenshot or export to PDF.
+
+### What's the difference between Canvas and the Graph View?
+
+Graph view is auto-generated based on your existing links — you can't manually position nodes or add arbitrary connections. Canvas is entirely manual and intentional. Think of graph view as *discovering* structure in your existing notes, and Canvas as *building* new structure for a specific purpose.
+
+### Should I use Canvas or Excalidraw?
+
+Use Canvas when your primary need is surfacing and connecting existing vault notes visually. Use Excalidraw when you need freehand drawing, custom shapes, or presentation-quality diagrams. They solve different problems and both can coexist in the same vault without conflict.
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "What is Excalidraw and Why Use It in Obsidian?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: excalidraw-plugin-for-obsidian-review
 description: "Provide a detailed performance analysis, including load times and resource usage in small vs. large Obsidian vaults, a common concern for long-term users."
@@ -179,24 +180,27 @@ Want to go deeper on the methodology behind visual thinking and PKM? [Skillshare
 
 ---
 
-## FAQ {#faq}
+## Frequently Asked Questions
 
-**Q1: Does Excalidraw replace Obsidian Canvas, or should I use both?**
+### Does Excalidraw replace Obsidian Canvas, or should I use both?
+
 They serve different purposes. Excalidraw is for creating visual content from scratch — diagrams, sketches, mind maps. Canvas is for spatially arranging existing notes and web content. Most serious Obsidian users benefit from having both installed and choosing the right tool per task.
 
-**Q2: Can I collaborate with others on an Excalidraw drawing in Obsidian?**
+### Can I collaborate with others on an Excalidraw drawing in Obsidian?
+
 Not in real time through the plugin. Excalidraw's web app supports multiplayer, but the Obsidian plugin does not. You can share the `.excalidraw.md` file and open it in the web version, but live co-editing inside Obsidian is not currently supported.
 
-**Q3: Will Excalidraw drawings appear in Obsidian's graph view?**
+### Will Excalidraw drawings appear in Obsidian's graph view?
+
 Yes. Any wikilinks you place inside a drawing element appear as connections in the graph view. The drawing file itself is a node. This is one of the strongest arguments for using the plugin over an external whiteboard app.
 
-**Q4: Is Excalidraw safe to use with sensitive notes? Where is data stored?**
+### Is Excalidraw safe to use with sensitive notes? Where is data stored?
+
 All data stays local in your vault — Excalidraw in Obsidian has no cloud component. Your drawings are stored as `.excalidraw.md` files on disk. If you use Obsidian Sync, your data is encrypted in transit and at rest per Obsidian's stated security model.
 
-**Q5: How do I handle Excalidraw on mobile where touch input is imprecise?**
-For serious mobile use, an iPad with Apple Pencil or an Android tablet with a compatible stylus is the practical solution. On a phone, limit yourself to viewing and simple edits. The plugin's mobile rendering is functional; the limitation is touch precision on the freehand tool, not the app itself.
+### How do I handle Excalidraw on mobile where touch input is imprecise?
 
----
+For serious mobile use, an iPad with Apple Pencil or an Android tablet with a compatible stylus is the practical solution. On a phone, limit yourself to viewing and simple edits. The plugin's mobile rendering is functional; the limitation is touch precision on the freehand tool, not the app itself.
 
 ## Related Reading
 

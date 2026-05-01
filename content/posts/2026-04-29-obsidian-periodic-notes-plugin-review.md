@@ -1,5 +1,6 @@
 ---
 title: "What is the Periodic Notes Plugin (And Why It's a Game-Changer)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-periodic-notes-plugin-review
 description: "Provide a 'Before and After' comparison, showing a disorganized vault transformed into a structured system using Periodic Notes, complete with screenshots."
@@ -135,7 +136,6 @@ The plugin does nothing special with templates on its own — it opens a templat
 
 ## Meeting Notes
 
-
 ## Daily Reflection
 **What moved the needle today?**
 
@@ -160,12 +160,9 @@ The Dataview block at the bottom queries *this week's* weekly note for incomplet
 
 ## Wins
 
-
 ## Blockers
 
-
 ## Next Week's Focus
-
 
 ## Days This Week
 \`\`\`dataview
@@ -264,25 +261,6 @@ Install the [Calendar plugin](URL_PLACEHOLDER_4) alongside Periodic Notes. It re
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Does Periodic Notes conflict with the core Daily Notes plugin?**
-Yes. Both plugins try to handle the same hotkey and note-creation behavior. Disable the core Daily Notes plugin in Settings → Core Plugins before enabling Periodic Notes. Running both simultaneously causes duplicate notes and broken hotkeys.
-
-**Q2: Can I migrate my existing daily notes into the new folder structure?**
-The plugin won't migrate existing notes automatically. You can move files manually in the File Explorer or use a community script. The plugin will recognize existing notes in the configured folder as long as the filename matches the date format you've set.
-
-**Q3: Do I need the Templater plugin, or does the core Templates plugin work?**
-The core Templates plugin works for static templates — fixed text that doesn't change. Templater is required if you want dynamic content like today's date auto-inserted, links to the current week's note, or Dataview queries referencing the current date. For any workflow beyond basic journaling, install Templater.
-
-**Q4: How do I set up quarterly notes? The date format isn't obvious.**
-Use `YYYY-[Q]Q` as the format string. The brackets tell Moment.js to treat `Q` as a literal character prefix, and the second `Q` is the quarter number token. This produces filenames like `2025-Q1.md`, `2025-Q2.md`. Set the folder to `Periodic/Quarterly` and configure a template the same way you would for daily or weekly notes.
-
-**Q5: Will Periodic Notes work on Obsidian Mobile?**
-Yes. The plugin functions identically on iOS and Android. Hotkeys map to the mobile toolbar buttons you configure in Settings → Mobile. The one limitation: Templater's system-level commands (executing shell scripts, etc.) don't run on mobile, so keep mobile templates to Templater's tp.date and tp.file functions only.
-
----
-
 ## Conclusion
 
 The Periodic Notes plugin is a 12-minute investment that restructures how your entire vault scales over time. It replaces chaotic daily-note accumulation with a clean, navigable timeline — daily notes inside weekly containers, weekly notes summarized monthly, monthly notes queryable at the quarterly and yearly level via Dataview. The setup friction is real but front-loaded; after that first configuration session, the system runs itself.
@@ -290,6 +268,28 @@ The Periodic Notes plugin is a 12-minute investment that restructures how your e
 If you're ready to stop organizing your vault manually and start letting your tools do that work, [grab Periodic Notes from the community plugin browser](URL_PLACEHOLDER_6), spend 20 minutes on a minimal template, and use it every day for two weeks before judging it. That's the only honest benchmark.
 
 ---
+
+## Frequently Asked Questions
+
+### Does Periodic Notes conflict with the core Daily Notes plugin?
+
+Yes. Both plugins try to handle the same hotkey and note-creation behavior. Disable the core Daily Notes plugin in Settings → Core Plugins before enabling Periodic Notes. Running both simultaneously causes duplicate notes and broken hotkeys.
+
+### Can I migrate my existing daily notes into the new folder structure?
+
+The plugin won't migrate existing notes automatically. You can move files manually in the File Explorer or use a community script. The plugin will recognize existing notes in the configured folder as long as the filename matches the date format you've set.
+
+### Do I need the Templater plugin, or does the core Templates plugin work?
+
+The core Templates plugin works for static templates — fixed text that doesn't change. Templater is required if you want dynamic content like today's date auto-inserted, links to the current week's note, or Dataview queries referencing the current date. For any workflow beyond basic journaling, install Templater.
+
+### How do I set up quarterly notes? The date format isn't obvious.?
+
+Use `YYYY-[Q]Q` as the format string. The brackets tell Moment.js to treat `Q` as a literal character prefix, and the second `Q` is the quarter number token. This produces filenames like `2025-Q1.md`, `2025-Q2.md`. Set the folder to `Periodic/Quarterly` and configure a template the same way you would for daily or weekly notes.
+
+### Will Periodic Notes work on Obsidian Mobile?
+
+Yes. The plugin functions identically on iOS and Android. Hotkeys map to the mobile toolbar buttons you configure in Settings → Mobile. The one limitation: Templater's system-level commands (executing shell scripts, etc.) don't run on mobile, so keep mobile templates to Templater's tp.date and tp.file functions only.
 
 ## Related Reading
 

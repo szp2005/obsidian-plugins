@@ -1,5 +1,6 @@
 ---
 title: "What is the Obsidian Projects Plugin (And Who is it For?)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-projects-plugin-review-and-setup
 description: "Provide pre-built, copy-and-paste project templates for specific workflows like content creation, academic research, and GTD, which offers immediate practical value."
@@ -140,6 +141,7 @@ Create a folder for each project, add notes with the frontmatter below, then poi
 ```yaml
 ---
 title: "Article Title Here"
+author: "Alex Chen"
 status: "idea"
 publish-date: 
 tags: [content]
@@ -157,6 +159,7 @@ Point your Project at your `Content/` folder. Use Board view grouped by `status`
 ```yaml
 ---
 title: "Paper or Book Title"
+author: "Alex Chen"
 authors: ""
 status: "to-read"
 added-date: 2024-01-01
@@ -174,6 +177,7 @@ Use Table view to sort by `topic` and find clusters. Use the `key-insight` field
 ```yaml
 ---
 title: "Task or Project Name"
+author: "Alex Chen"
 status: "inbox"
 context: ""
 energy: "medium"
@@ -199,6 +203,7 @@ Install the [Templater plugin](URL_PLACEHOLDER_5) and create a template file for
 ```
 ---
 title: <% tp.file.title %>
+author: "Alex Chen"
 status: "idea"
 publish-date: <% tp.date.now("YYYY-MM-DD") %>
 tags: [content]
@@ -293,25 +298,6 @@ The Projects plugin earns its place in any intermediate-to-advanced Obsidian vau
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Does the Obsidian Projects plugin work on mobile?**
-Yes. The plugin runs on Obsidian mobile. Views render correctly, and inline editing works on touch. Sync your vault with [Obsidian Sync](URL_PLACEHOLDER_3) to keep project configurations identical across devices.
-
-**Q2: Can I use the Projects plugin without any YAML frontmatter?**
-Partially. Notes without frontmatter still appear in the project as rows, but you will have no columns to work with beyond the note title. The plugin becomes useful proportionally to how consistently you use frontmatter.
-
-**Q3: Is the Projects plugin a replacement for Notion or Airtable?**
-For solo use within your vault, it replaces a significant portion of what people use Notion databases for — especially content pipelines and research trackers. It has no collaboration features, no API, and no external sharing, so it is not a Notion replacement for teams.
-
-**Q4: Can I have multiple projects pointing at the same folder?**
-Yes, and this is genuinely useful. You can have one project using Table view to edit fields and a second project pointing at the same folder using Calendar view to track deadlines. Both read and write to the same notes.
-
-**Q5: How does the Projects plugin handle notes that belong to multiple projects?**
-If you use folder-based projects, a note can only belong to one project (the folder it lives in). If you use tag-based projects, a single note can appear in multiple projects by carrying multiple tags. This is the main practical reason to choose tags over folders as your data source.
-
----
-
 ## Conclusion
 
 The Obsidian Projects plugin is one of the few community plugins that genuinely changes how you interact with your vault on a daily basis. It does not try to do everything — it turns folders of notes into visual, editable dashboards and does that one job very well. Pair it with Templater and QuickAdd, apply one of the templates above, and you will have a functional project management system running in under an hour.
@@ -322,6 +308,28 @@ Start with the content pipeline or GTD template, spend fifteen minutes getting y
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, this site earns a commission at no additional cost to you.*
 
 ---
+
+## Frequently Asked Questions
+
+### Does the Obsidian Projects plugin work on mobile?
+
+Yes. The plugin runs on Obsidian mobile. Views render correctly, and inline editing works on touch. Sync your vault with [Obsidian Sync](URL_PLACEHOLDER_3) to keep project configurations identical across devices.
+
+### Can I use the Projects plugin without any YAML frontmatter?
+
+Partially. Notes without frontmatter still appear in the project as rows, but you will have no columns to work with beyond the note title. The plugin becomes useful proportionally to how consistently you use frontmatter.
+
+### Is the Projects plugin a replacement for Notion or Airtable?
+
+For solo use within your vault, it replaces a significant portion of what people use Notion databases for — especially content pipelines and research trackers. It has no collaboration features, no API, and no external sharing, so it is not a Notion replacement for teams.
+
+### Can I have multiple projects pointing at the same folder?
+
+Yes, and this is genuinely useful. You can have one project using Table view to edit fields and a second project pointing at the same folder using Calendar view to track deadlines. Both read and write to the same notes.
+
+### How does the Projects plugin handle notes that belong to multiple projects?
+
+If you use folder-based projects, a note can only belong to one project (the folder it lives in). If you use tag-based projects, a single note can appear in multiple projects by carrying multiple tags. This is the main practical reason to choose tags over folders as your data source.
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "Why Go Beyond Backlinks? The Power of Spatial Note-Taking"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-create-interactive-maps-in-obsidian
 description: "Provide downloadable templates for different use-cases, such as a world travel log, a fictional kingdom map, and a local project planner, allowing users to get started instantly."
@@ -355,22 +356,23 @@ Start with the five-minute tutorial. Add your three most important locations. Th
 
 *Found this guide useful? Bookmark it for reference as you build out your vault, and share it with any Obsidian users who are still working in a purely text-based setup—they're missing half the picture.*
 
-
 ## Frequently Asked Questions
 
 ### What is the main benefit of Create Interactive Maps in Obsidian?
+
 This guide explains how Obsidian users and note-taking power users can make a better decision about Create Interactive Maps in Obsidian. The real benefit is that it turns a vague problem into a clearer decision, workflow, or setup that Obsidian users and note-taking power users can act on immediately.
 
 ### Who is Create Interactive Maps in Obsidian best for?
+
 Create Interactive Maps in Obsidian is best for Obsidian users and note-taking power users who want a practical Obsidian workflow improvement without adding unnecessary complexity. It is especially useful when you need repeatable results rather than another isolated tip.
 
 ### How should I get started with Create Interactive Maps in Obsidian?
+
 Start by identifying the specific outcome you want, then apply the smallest useful version of the advice in this article. After that, review what worked and adjust the setup, tool, or process before expanding it.
 
 ### What mistakes should I avoid with Create Interactive Maps in Obsidian?
-Avoid copying a complex system before you understand the problem you are solving. Keep the workflow simple, measure whether it improves your real work, and only add more tools or steps when they remove friction.
 
----
+Avoid copying a complex system before you understand the problem you are solving. Keep the workflow simple, measure whether it improves your real work, and only add more tools or steps when they remove friction.
 
 ## Related Reading
 

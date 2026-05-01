@@ -1,5 +1,6 @@
 ---
 title: "Why Your Theme is Your Most Important Writing Tool in Obsidian"
+author: "Alex Chen"
 date: 2026-04-28
 slug: best-obsidian-themes-for-writing-longform-content
 description: "Provide a 'Writer's Scorecard' for each theme, rating them on specific criteria like Typography, Focus Mode Quality, and UI Minimalism for easy comparison."
@@ -274,30 +275,6 @@ Typewriter Scroll (available as a community plugin) keeps your active line of te
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Do I need the Style Settings plugin to use these themes effectively?**
-
-You need Style Settings to unlock the full customization potential of Minimal in particular. Typomagical works extremely well without it. Things and Sanctum benefit from it but are not dependent on it. Install Style Settings from the Community Plugins browser — it is free, maintained, and adds no performance overhead.
-
-**Q2: Can I use multiple themes and switch between them for different projects?**
-
-Obsidian only runs one active theme at a time, but you can switch themes instantly via **Settings → Appearance → Themes**. Some writers maintain a lighter theme for daytime drafting and switch to a dark-mode-focused one in the evening. The switch takes about three seconds and all your notes remain unchanged.
-
-**Q3: Will switching themes affect my notes' content or formatting?**
-
-No. Themes affect visual presentation only. Your Markdown source files are unchanged by any theme switch. Headers, bold text, bullet lists, and every other formatting element in your notes remain intact.
-
-**Q4: Is Obsidian actually a viable alternative to Ulysses or Scrivener for longform writing?**
-
-For writers who value an open, local-first file format and deep customization, yes — especially with the Longform plugin and a well-configured theme. Obsidian lacks Ulysses' export polishing and Scrivener's manuscript template depth, but it compensates with the ability to link your writing project to your research notes inside the same vault. For many authors and academics, that connectivity is worth more than polished PDF export.
-
-**Q5: How do I install a CSS snippet like the ones in this article?**
-
-Open your vault folder in Finder or Explorer. Navigate to `.obsidian/snippets/` (create the folder if it does not exist). Create a new `.css` file, paste the snippet code, and save. Then in Obsidian go to **Settings → Appearance → CSS Snippets**, click the refresh icon, and toggle your snippet on. Changes apply immediately without restarting Obsidian.
-
----
-
 ## Conclusion {#conclusion}
 
 The difference between Obsidian's default appearance and a properly configured writing theme is not cosmetic. It is the difference between a workspace that fatigues you and one that sustains you through a 2,000-word session. The five themes in this review represent the best the community has produced for serious longform work, and each serves a distinct writing archetype.
@@ -319,6 +296,28 @@ Pick the theme that matches your archetype. Configure it once. Then write.
 *Prices and feature availability for all plugins and themes mentioned are accurate as of publication. All community themes are free and available via Obsidian's built-in Community Themes browser under Settings → Appearance.*
 
 ---
+
+## Frequently Asked Questions
+
+### Do I need the Style Settings plugin to use these themes effectively?
+
+You need Style Settings to unlock the full customization potential of Minimal in particular. Typomagical works extremely well without it. Things and Sanctum benefit from it but are not dependent on it. Install Style Settings from the Community Plugins browser — it is free, maintained, and adds no performance overhead.
+
+### Can I use multiple themes and switch between them for different projects?
+
+Obsidian only runs one active theme at a time, but you can switch themes instantly via **Settings → Appearance → Themes**. Some writers maintain a lighter theme for daytime drafting and switch to a dark-mode-focused one in the evening. The switch takes about three seconds and all your notes remain unchanged.
+
+### Will switching themes affect my notes' content or formatting?
+
+No. Themes affect visual presentation only. Your Markdown source files are unchanged by any theme switch. Headers, bold text, bullet lists, and every other formatting element in your notes remain intact.
+
+### Is Obsidian actually a viable alternative to Ulysses or Scrivener for longform writing?
+
+For writers who value an open, local-first file format and deep customization, yes — especially with the Longform plugin and a well-configured theme. Obsidian lacks Ulysses' export polishing and Scrivener's manuscript template depth, but it compensates with the ability to link your writing project to your research notes inside the same vault. For many authors and academics, that connectivity is worth more than polished PDF export.
+
+### How do I install a CSS snippet like the ones in this article?
+
+Open your vault folder in Finder or Explorer. Navigate to `.obsidian/snippets/` (create the folder if it does not exist). Create a new `.css` file, paste the snippet code, and save. Then in Obsidian go to **Settings → Appearance → CSS Snippets**, click the refresh icon, and toggle your snippet on. Changes apply immediately without restarting Obsidian.
 
 ## Related Reading
 

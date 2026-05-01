@@ -1,5 +1,6 @@
 ---
 title: "Two Ways to Browse Obsidian Themes: In-App vs. Web"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-theme-store-browser
 description: "The primary and most efficient way to browse and install themes is directly within the Obsidian app via 'Settings > Appearance > Community themes > Browse'."
@@ -148,25 +149,6 @@ Snippets are also the right tool when a theme update breaks something you relied
 
 ---
 
-## FAQ {#faq}
-
-**Q: Do I need to pay for community themes?**
-No. Every theme in the official Obsidian theme browser is free and open source. Some theme authors accept donations via Ko-fi or GitHub Sponsors, but payment is never required.
-
-**Q: Can I use themes on Obsidian mobile?**
-Yes. Themes sync across desktop and mobile if you have Obsidian Sync enabled. Install the theme on desktop and it will appear on your mobile device after the next sync. Not every theme is mobile-optimized, so check the theme's description.
-
-**Q: Will installing a theme slow down my vault?**
-No. Themes are CSS files loaded at startup. They have no measurable impact on Obsidian's performance. CSS snippets also carry zero performance cost.
-
-**Q: How do I go back to the default Obsidian look?**
-Settings → Appearance → Current community theme → select **Default**. Your installed themes remain on disk but are inactive.
-
-**Q: Can I edit a community theme directly?**
-Technically yes — the files are in `.obsidian/themes/`. In practice, avoid editing them directly because updates will overwrite your changes. Use CSS snippets instead to apply targeted overrides that survive updates.
-
----
-
 ## Conclusion
 
 The Obsidian theme store browser is a two-part system: the in-app browser for installing and managing themes, and the web gallery at obsidian.md/themes for discovery and comparison. The fastest path to a vault you enjoy looking at is to filter the web gallery by your preferred mode, shortlist three or four candidates, install them all in-app, and cycle through them with your actual notes open. Then use CSS snippets for anything the theme does not handle exactly the way you want.
@@ -176,6 +158,28 @@ If you want to take your Obsidian setup from functional to genuinely enjoyable t
 > 🛠️ **Ready to level up beyond themes?** [Explore Obsidian courses on Udemy](URL_PLACEHOLDER_3) covering automation, templates, Dataview, and advanced customization — everything you need to turn Obsidian into a second brain that actually works for you.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Do I need to pay for community themes?
+
+No. Every theme in the official Obsidian theme browser is free and open source. Some theme authors accept donations via Ko-fi or GitHub Sponsors, but payment is never required.
+
+### Q: Can I use themes on Obsidian mobile?
+
+Yes. Themes sync across desktop and mobile if you have Obsidian Sync enabled. Install the theme on desktop and it will appear on your mobile device after the next sync. Not every theme is mobile-optimized, so check the theme's description.
+
+### Q: Will installing a theme slow down my vault?
+
+No. Themes are CSS files loaded at startup. They have no measurable impact on Obsidian's performance. CSS snippets also carry zero performance cost.
+
+### Q: How do I go back to the default Obsidian look?
+
+Settings → Appearance → Current community theme → select **Default**. Your installed themes remain on disk but are inactive.
+
+### Q: Can I edit a community theme directly?
+
+Technically yes — the files are in `.obsidian/themes/`. In practice, avoid editing them directly because updates will overwrite your changes. Use CSS snippets instead to apply targeted overrides that survive updates.
 
 ## Related Reading
 

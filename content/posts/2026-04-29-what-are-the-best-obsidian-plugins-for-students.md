@@ -1,5 +1,6 @@
 ---
 title: "Why Obsidian is a Student's Secret Weapon"
+author: "Alex Chen"
 date: 2026-04-29
 slug: what-are-the-best-obsidian-plugins-for-students
 description: "Structure the article around specific student workflows (e.g., 'Research & Citations', 'Writing Essays', 'Exam Prep') rather than a simple list, making it more actionable."
@@ -78,8 +79,6 @@ tags: [lecture, <% tp.system.prompt("Topic tag?") %>]
 ---
 
 ## Key Concepts
-
-## Questions & Gaps
 
 ## Links to Related Notes
 ```
@@ -258,30 +257,6 @@ A blank vault is intimidating. Here's the folder structure that makes the workfl
 
 ---
 
-## Frequently Asked Questions {#faq}
-
-**Q1: How do I sync my Obsidian notes between my laptop and phone?**
-
-The cleanest paid option is [Obsidian Sync](URL_PLACEHOLDER_5), which costs $4/month with a student discount available. It's end-to-end encrypted and built by the Obsidian team, so it handles plugin settings and themes correctly. Free alternatives include iCloud (Mac/iPhone only, works reasonably well), Syncthing (self-hosted, free, slightly technical to set up), or a Git-based workflow via the Obsidian Git plugin if you're comfortable with GitHub.
-
-**Q2: Is Obsidian free for students?**
-
-Yes. The core Obsidian application is completely free for personal use, which includes all student use. The two paid add-ons are Obsidian Sync ($4/month after discount) and Obsidian Publish ($8/month) for hosting a public vault as a website. Every community plugin mentioned in this guide is free. You can run a fully functional academic vault at zero cost indefinitely.
-
-**Q3: What's the best way to get started if I'm a complete beginner?**
-
-Start with zero plugins. Spend one week writing notes in plain Markdown to understand the basics of bidirectional linking and tags. Then install Templater and build two templates: one for lectures, one for readings. Add Dataview in week three to query what you've built. Stacking all 14 plugins at once is how people abandon the system in a month because it feels overwhelming. The folder structure in the Starter Vault section above is a good first scaffold.
-
-**Q4: Can Obsidian replace my to-do list app?**
-
-For most students, yes. The Tasks plugin, combined with Dataview, creates a system that's more integrated with your actual work than any standalone to-do app, because your tasks live in context — the task "find a third source for section 2" sits in the actual essay note where you need it. The main limitation is that Obsidian's mobile app is slower than a dedicated to-do app for quick capture. The workaround is using the Inbox folder for fast mobile notes, which you process later on desktop.
-
-**Q5: How does Obsidian compare to Notion for students?**
-
-Notion wins on visual polish, tables, and collaborative features (shared databases with classmates). Obsidian wins on speed, offline access, data ownership, search depth, and the quality of its plugin ecosystem for academic work specifically. For a student working primarily on independent research and writing, Obsidian is the stronger tool. For a student who does a lot of group projects and wants a shared workspace, Notion makes collaboration easier. Many students use both: Notion for shared project management, Obsidian for personal notes and research.
-
----
-
 ## Conclusion {#conclusion}
 
 The honest answer to "what are the best Obsidian plugins for students" isn't a single list — it's a decision that depends on what you're actually doing. A first-year undergraduate taking lecture notes needs Templater, Omnisearch, and Spaced Repetition and nothing else yet. A PhD student writing a dissertation needs Zotero Integration, Longform, and Pandoc on top of the foundations.
@@ -309,6 +284,28 @@ If you prefer video instruction to written guides, there are excellent structure
 *Plugin availability and features change with Obsidian updates. All plugin information in this guide was verified against the current community plugin directory. Always check the plugin's GitHub page for the latest compatibility notes before installing.*
 
 ---
+
+## Frequently Asked Questions
+
+### How do I sync my Obsidian notes between my laptop and phone?
+
+The cleanest paid option is [Obsidian Sync](URL_PLACEHOLDER_5), which costs $4/month with a student discount available. It's end-to-end encrypted and built by the Obsidian team, so it handles plugin settings and themes correctly. Free alternatives include iCloud (Mac/iPhone only, works reasonably well), Syncthing (self-hosted, free, slightly technical to set up), or a Git-based workflow via the Obsidian Git plugin if you're comfortable with GitHub.
+
+### Is Obsidian free for students?
+
+Yes. The core Obsidian application is completely free for personal use, which includes all student use. The two paid add-ons are Obsidian Sync ($4/month after discount) and Obsidian Publish ($8/month) for hosting a public vault as a website. Every community plugin mentioned in this guide is free. You can run a fully functional academic vault at zero cost indefinitely.
+
+### What's the best way to get started if I'm a complete beginner?
+
+Start with zero plugins. Spend one week writing notes in plain Markdown to understand the basics of bidirectional linking and tags. Then install Templater and build two templates: one for lectures, one for readings. Add Dataview in week three to query what you've built. Stacking all 14 plugins at once is how people abandon the system in a month because it feels overwhelming. The folder structure in the Starter Vault section above is a good first scaffold.
+
+### Can Obsidian replace my to-do list app?
+
+For most students, yes. The Tasks plugin, combined with Dataview, creates a system that's more integrated with your actual work than any standalone to-do app, because your tasks live in context — the task "find a third source for section 2" sits in the actual essay note where you need it. The main limitation is that Obsidian's mobile app is slower than a dedicated to-do app for quick capture. The workaround is using the Inbox folder for fast mobile notes, which you process later on desktop.
+
+### How does Obsidian compare to Notion for students?
+
+Notion wins on visual polish, tables, and collaborative features (shared databases with classmates). Obsidian wins on speed, offline access, data ownership, search depth, and the quality of its plugin ecosystem for academic work specifically. For a student working primarily on independent research and writing, Obsidian is the stronger tool. For a student who does a lot of group projects and wants a shared workspace, Notion makes collaboration easier. Many students use both: Notion for shared project management, Obsidian for personal notes and research.
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "The Easiest Method: Finding Docs Directly Inside Obsidian"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-find-obsidian-plugin-documentation
 description: "Create a one-stop resource that consolidates information currently scattered across forums, Reddit, and official help docs."
@@ -163,25 +164,6 @@ Sometimes docs are sparse, outdated, or don't address your exact situation. Here
 
 ---
 
-## FAQ {#faq}
-
-**Q: Why don't all Obsidian plugins have the same quality of documentation?**
-A: Community plugins are built by volunteers. Documentation quality directly reflects how much time the developer chose to invest in it. Popular plugins with large userbases tend to have better docs because user demand pressures developers to improve them.
-
-**Q: The GitHub README mentions a feature I can't find in the plugin settings. What's happening?**
-A: Check the plugin version you have installed against the version on GitHub. An outdated plugin won't have features added after your version was released. Go to **Settings → Community plugins**, find the plugin, and check for an update.
-
-**Q: How do I find the GitHub repository for a plugin I've already installed, without going back to the plugin browser?**
-A: Every installed plugin stores its data in your vault's `.obsidian/plugins/[plugin-id]/` folder. Open the `manifest.json` file — it contains an `authorUrl` or similar field that often links to GitHub. Faster path: just search the plugin name on GitHub directly.
-
-**Q: Is the Obsidian Forum better than Reddit for finding plugin documentation help?**
-A: The official forum at `forum.obsidian.md` is better — it has proper tagging, a more active developer presence, and search that actually works. Reddit (`r/ObsidianMD`) is useful for casual questions but lacks the structure for tracking resolved issues.
-
-**Q: What should I do if a plugin's documentation is outdated but the plugin still works?**
-A: Trust the plugin behavior over the docs. Open the plugin's Settings panel directly — most plugins document their options inline with descriptive labels. If that's not enough, look for recent posts on the forum or Issues tab where users discuss the current behavior.
-
----
-
 ## Conclusion {#conclusion}
 
 Finding Obsidian plugin documentation isn't complicated once you know the hierarchy: start in the app, follow the GitHub link, check for a README, look for a Wiki tab or dedicated site, then escalate to the community if you're still stuck. The common mistake is jumping straight to the forum before reading what the developer already wrote.
@@ -191,6 +173,28 @@ For users who want to move beyond hunting for plugin docs one at a time — and 
 The documentation exists. Now you know exactly where to look.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Why don't all Obsidian plugins have the same quality of documentation?
+
+A: Community plugins are built by volunteers. Documentation quality directly reflects how much time the developer chose to invest in it. Popular plugins with large userbases tend to have better docs because user demand pressures developers to improve them.
+
+### Q: The GitHub README mentions a feature I can't find in the plugin settings. What's happening?
+
+A: Check the plugin version you have installed against the version on GitHub. An outdated plugin won't have features added after your version was released. Go to **Settings → Community plugins**, find the plugin, and check for an update.
+
+### Q: How do I find the GitHub repository for a plugin I've already installed, without going back to the plugin browser?
+
+A: Every installed plugin stores its data in your vault's `.obsidian/plugins/[plugin-id]/` folder. Open the `manifest.json` file — it contains an `authorUrl` or similar field that often links to GitHub. Faster path: just search the plugin name on GitHub directly.
+
+### Q: Is the Obsidian Forum better than Reddit for finding plugin documentation help?
+
+A: The official forum at `forum.obsidian.md` is better — it has proper tagging, a more active developer presence, and search that actually works. Reddit (`r/ObsidianMD`) is useful for casual questions but lacks the structure for tracking resolved issues.
+
+### Q: What should I do if a plugin's documentation is outdated but the plugin still works?
+
+A: Trust the plugin behavior over the docs. Open the plugin's Settings panel directly — most plugins document their options inline with descriptive labels. If that's not enough, look for recent posts on the forum or Issues tab where users discuss the current behavior.
 
 ## Related Reading
 

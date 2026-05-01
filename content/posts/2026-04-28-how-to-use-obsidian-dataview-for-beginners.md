@@ -368,25 +368,6 @@ Your date field needs to be in `YYYY-MM-DD` format in the frontmatter. `date: Se
 
 ---
 
-## FAQ {#faq}
-
-**Q: Do I need to know how to code to use Dataview?**
-No. The basic query language (DQL) reads almost like plain English. The examples in this guide require zero programming background. The only "advanced" option — DataviewJS — uses JavaScript, but you can accomplish most real-world use cases without ever touching it.
-
-**Q: Will Dataview slow down my Obsidian vault?**
-On vaults under 1,000 notes, you won't notice anything. On very large vaults (5,000+ notes), complex queries with no `FROM` filter — meaning they scan every file — can add a slight delay. Scoping your queries to specific folders or tags keeps things fast.
-
-**Q: What's the difference between Dataview tags and Obsidian tags?**
-They're the same tags. `#meetings` in your note body or frontmatter is the same tag Obsidian shows in the Tags panel. Dataview reads Obsidian's native tags — you don't need a separate system.
-
-**Q: Can I use Dataview with Obsidian Sync across devices?**
-Yes. [Obsidian Sync](URL_PLACEHOLDER_4) syncs your entire vault including the Dataview plugin and all your notes. Your dashboards are fully functional on mobile, tablet, and any other device. The queries run locally on each device, not in the cloud.
-
-**Q: Why should I use YAML frontmatter instead of just relying on folders and tags?**
-Tags and folders answer "where is this note?" Frontmatter answers "what is this note about, and what are its properties?" A book note can be in a Books folder AND tagged #books — but only frontmatter can tell Dataview that this specific book has a rating of 4, was finished on March 3rd, and has a status of "read." That's what makes filtering and sorting actually useful.
-
----
-
 ## Conclusion {#conclusion}
 
 Dataview is not magic, but it's close. The core workflow is straightforward: add consistent labels to your notes using YAML frontmatter, write a short query using the `LIST / TABLE / FROM / WHERE / SORT` structure, and let Dataview do the maintenance work for you.
@@ -404,6 +385,28 @@ The three things that make the biggest difference early on: consistent field nam
 Start with one query. Everything else follows from there.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Do I need to know how to code to use Dataview?
+
+No. The basic query language (DQL) reads almost like plain English. The examples in this guide require zero programming background. The only "advanced" option — DataviewJS — uses JavaScript, but you can accomplish most real-world use cases without ever touching it.
+
+### Q: Will Dataview slow down my Obsidian vault?
+
+On vaults under 1,000 notes, you won't notice anything. On very large vaults (5,000+ notes), complex queries with no `FROM` filter — meaning they scan every file — can add a slight delay. Scoping your queries to specific folders or tags keeps things fast.
+
+### Q: What's the difference between Dataview tags and Obsidian tags?
+
+They're the same tags. `#meetings` in your note body or frontmatter is the same tag Obsidian shows in the Tags panel. Dataview reads Obsidian's native tags — you don't need a separate system.
+
+### Q: Can I use Dataview with Obsidian Sync across devices?
+
+Yes. [Obsidian Sync](URL_PLACEHOLDER_4) syncs your entire vault including the Dataview plugin and all your notes. Your dashboards are fully functional on mobile, tablet, and any other device. The queries run locally on each device, not in the cloud.
+
+### Q: Why should I use YAML frontmatter instead of just relying on folders and tags?
+
+Tags and folders answer "where is this note?" Frontmatter answers "what is this note about, and what are its properties?" A book note can be in a Books folder AND tagged #books — but only frontmatter can tell Dataview that this specific book has a rating of 4, was finished on March 3rd, and has a status of "read." That's what makes filtering and sorting actually useful.
 
 ## Related Reading
 

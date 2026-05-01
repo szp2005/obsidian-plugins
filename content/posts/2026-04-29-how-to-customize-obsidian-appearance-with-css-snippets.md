@@ -1,5 +1,6 @@
 ---
 title: "What Are CSS Snippets and Why Should You Care?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-customize-obsidian-appearance-with-css-snippets
 description: "Provide a downloadable 'CSS Snippet Starter Pack' with the 5 most popular customizations for immediate use."
@@ -327,25 +328,6 @@ Browse community themes at **Settings → Appearance → Themes → Manage**. If
 
 ---
 
-## FAQ {#faq}
-
-**Q: Will CSS snippets break my vault or corrupt my notes?**
-A: No. Snippets only affect visual rendering. Your actual note content — the Markdown text — is completely untouched. The worst that can happen is an ugly visual result, which you fix by toggling the snippet off.
-
-**Q: Do snippets sync with Obsidian Sync?**
-A: Yes. The `.obsidian/snippets` folder is included in Obsidian Sync by default, so your customizations follow you across devices.
-
-**Q: Can I use Google Fonts in my snippets?**
-A: Yes, with an extra step. Add an `@import` rule at the top of your snippet file: `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');` then reference `'Inter'` in your font rules. This requires an internet connection each time Obsidian loads.
-
-**Q: What happens to my snippets when I switch community themes?**
-A: Most snippets keep working, but some selectors may target classes that only exist in your old theme. Re-check with the Developer Console after switching themes and update any broken selectors.
-
-**Q: Can snippets style Dataview query results?**
-A: Absolutely. Dataview tables render as standard HTML tables with classes like `.dataview`, `.table-view-table`, and `.dataview-result-list-ul`. Inspect them in the Developer Console and style them exactly like any other element.
-
----
-
 ## Conclusion {#conclusion}
 
 CSS snippets are the most underused power feature in Obsidian. They require no plugins, no themes, and no real coding knowledge to get started — just a text file and the willingness to paste four lines and hit save. Start with the font and header snippets to build confidence, work through the 10 essentials to see what's possible, and then use the Developer Console technique to go after anything in the UI that's bothered you for months.
@@ -357,6 +339,28 @@ The `.obsidian/snippets` folder is yours. Fill it.
 **Ready to go deeper?** If you want to move from copy-pasting to writing your own rules from scratch, [this beginner CSS course on Udemy](URL_PLACEHOLDER_1) is the fastest structured path — most students are writing confident CSS within a few hours. And if you decide you'd rather start with a premium professionally designed Obsidian theme as your base, [check out these Gumroad options](URL_PLACEHOLDER_4) built specifically for PKM workflows. Either way, your vault, your rules.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Will CSS snippets break my vault or corrupt my notes?
+
+A: No. Snippets only affect visual rendering. Your actual note content — the Markdown text — is completely untouched. The worst that can happen is an ugly visual result, which you fix by toggling the snippet off.
+
+### Q: Do snippets sync with Obsidian Sync?
+
+A: Yes. The `.obsidian/snippets` folder is included in Obsidian Sync by default, so your customizations follow you across devices.
+
+### Q: Can I use Google Fonts in my snippets?
+
+A: Yes, with an extra step. Add an `@import` rule at the top of your snippet file: `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');` then reference `'Inter'` in your font rules. This requires an internet connection each time Obsidian loads.
+
+### Q: What happens to my snippets when I switch community themes?
+
+A: Most snippets keep working, but some selectors may target classes that only exist in your old theme. Re-check with the Developer Console after switching themes and update any broken selectors.
+
+### Q: Can snippets style Dataview query results?
+
+A: Absolutely. Dataview tables render as standard HTML tables with classes like `.dataview`, `.table-view-table`, and `.dataview-result-list-ul`. Inspect them in the Developer Console and style them exactly like any other element.
 
 ## Related Reading
 

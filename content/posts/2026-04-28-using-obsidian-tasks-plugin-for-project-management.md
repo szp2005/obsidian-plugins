@@ -1,5 +1,6 @@
 ---
 title: "Why Manage Projects in Obsidian? The Power of a Unified System"
+author: "Alex Chen"
 date: 2026-04-28
 slug: using-obsidian-tasks-plugin-for-project-management
 description: "Provide a full project management template (a set of files and folders) that users can download and use immediately in their own vault."
@@ -476,30 +477,6 @@ The message from this table is not that Obsidian Tasks is objectively better —
 
 ---
 
-## FAQ {#faq}
-
-**Q: Can I use the Tasks plugin without any coding or technical knowledge?**
-
-Yes. The basic workflow — installing the plugin, creating tasks with the modal dialog, and using pre-written query blocks — requires no coding. You paste queries from this guide into your notes and they work. Dataview queries involve a SQL-like syntax that you pick up quickly by modifying examples. If you can write a formula in Excel, you can write a Dataview query.
-
-**Q: Will the Tasks plugin slow down Obsidian on a large vault?**
-
-It can. The plugin indexes your vault and re-runs queries each time you open a note or complete a task. On vaults under 1,000 notes, the performance hit is negligible. Above 3,000 notes, scope your queries tightly with `path includes` and avoid queries that search the entire vault unless you need them on a dedicated dashboard note.
-
-**Q: How does this compare to using Obsidian with the Dataview plugin alone?**
-
-Dataview can query `file.tasks` to display tasks, but it cannot understand Tasks-specific metadata like priorities, scheduled dates, or recurrence rules — those are Tasks plugin conventions. Tasks also handles task completion differently: ticking a task in a query result marks it done in the source file. Dataview is read-only for task display. Use Tasks for task-level management, Dataview for project-level metadata views. They are complementary, not interchangeable.
-
-**Q: Can I collaborate with teammates who do not use Obsidian?**
-
-Not directly. Obsidian is a single-user app. If you need team task management, your best move is a hybrid: use Obsidian for your own tasks and project notes, use a shared tool (Linear, Notion, or GitHub Issues) for team-facing task boards, and log the outcome of team tasks in your Obsidian notes. It is extra friction but it preserves both the team workflow and your personal context.
-
-**Q: How do I handle tasks that appear in Daily Notes but belong to a project?**
-
-Tag them. Add `#project-apollo` to any task in your Daily Note and it will appear in the Project Apollo task query automatically, because that query filters by tag, not by file location. This is the key insight that makes the system work: tasks do not have to live in the project folder to be affiliated with the project. The tag is the affiliation. Your daily notes can stay clean and your project views stay complete.
-
----
-
 ## Conclusion {#conclusion}
 
 Using the Obsidian Tasks plugin for project management is not about replicating Asana inside a markdown editor. It is about eliminating the gap between your thinking and your commitments. When a task lives in the same file as the meeting where it was created, the research note that informed it, and the project goal it serves, the task means something. You do not have to reconstruct context from a bare action item — the context is right there.
@@ -519,6 +496,28 @@ Your notes and your tasks should live together. Now they can.
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. We only recommend tools we use and trust.*
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Can I use the Tasks plugin without any coding or technical knowledge?
+
+Yes. The basic workflow — installing the plugin, creating tasks with the modal dialog, and using pre-written query blocks — requires no coding. You paste queries from this guide into your notes and they work. Dataview queries involve a SQL-like syntax that you pick up quickly by modifying examples. If you can write a formula in Excel, you can write a Dataview query.
+
+### Q: Will the Tasks plugin slow down Obsidian on a large vault?
+
+It can. The plugin indexes your vault and re-runs queries each time you open a note or complete a task. On vaults under 1,000 notes, the performance hit is negligible. Above 3,000 notes, scope your queries tightly with `path includes` and avoid queries that search the entire vault unless you need them on a dedicated dashboard note.
+
+### Q: How does this compare to using Obsidian with the Dataview plugin alone?
+
+Dataview can query `file.tasks` to display tasks, but it cannot understand Tasks-specific metadata like priorities, scheduled dates, or recurrence rules — those are Tasks plugin conventions. Tasks also handles task completion differently: ticking a task in a query result marks it done in the source file. Dataview is read-only for task display. Use Tasks for task-level management, Dataview for project-level metadata views. They are complementary, not interchangeable.
+
+### Q: Can I collaborate with teammates who do not use Obsidian?
+
+Not directly. Obsidian is a single-user app. If you need team task management, your best move is a hybrid: use Obsidian for your own tasks and project notes, use a shared tool (Linear, Notion, or GitHub Issues) for team-facing task boards, and log the outcome of team tasks in your Obsidian notes. It is extra friction but it preserves both the team workflow and your personal context.
+
+### Q: How do I handle tasks that appear in Daily Notes but belong to a project?
+
+Tag them. Add `#project-apollo` to any task in your Daily Note and it will appear in the Project Apollo task query automatically, because that query filters by tag, not by file location. This is the key insight that makes the system work: tasks do not have to live in the project folder to be affiliated with the project. The tag is the affiliation. Your daily notes can stay clean and your project views stay complete.
 
 ## Related Reading
 

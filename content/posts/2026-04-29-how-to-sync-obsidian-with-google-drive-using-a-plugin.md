@@ -1,5 +1,6 @@
 ---
 title: "Why Sync Obsidian with Google Drive? (The Free & Powerful Alternative)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-sync-obsidian-with-google-drive-using-a-plugin
 description: "Provide heavily annotated screenshots for every single click and configuration step to make the process foolproof, especially for non-technical users."
@@ -167,25 +168,6 @@ Install Obsidian on your phone or second computer. Create a **new local vault** 
 
 ---
 
-## FAQ {#faq}
-
-**1. Is syncing Obsidian with Google Drive secure?**
-Your files travel over HTTPS to Google Drive and are stored with Google's standard encryption at rest. If you want zero-knowledge encryption — meaning even Google can't read your notes — enable the passphrase option in Remotely Save. With a strong passphrase set, your vault is as secure as your password manager.
-
-**2. Does this work on both Android and iOS?**
-Yes. Remotely Save supports Android and iOS through the Obsidian mobile apps. The setup process is identical on both platforms. iOS users should note that background sync is limited by iOS app lifecycle rules — open the app to trigger a sync.
-
-**3. Does Remotely Save sync plugin settings and themes?**
-By default, it syncs the entire vault including the `.obsidian` folder, which contains your plugin configurations, themes, and hotkeys. You can exclude it using the Ignore Paths setting if you prefer to manage settings separately per device.
-
-**4. What happens if I run out of Google Drive storage?**
-Sync will fail with a storage quota error. Remotely Save will log the error rather than silently skip files. Free up Drive space, or upgrade your Google storage. If you prefer not to use Google's ecosystem at all, [pCloud](URL_PLACEHOLDER_4) is a strong privacy-focused alternative — it offers end-to-end encrypted storage out of the box with a lifetime plan option, and Remotely Save supports it as a WebDAV backend.
-
-**5. Can I sync multiple vaults to the same Google Drive account?**
-Yes. Set a unique **Remote Base Dir** name for each vault. They'll appear as separate subfolders inside `remotely-save` in your Drive. No interference between them.
-
----
-
 ## Conclusion {#conclusion}
 
 Syncing Obsidian with Google Drive using Remotely Save is the most practical free sync solution available today. You get automatic cross-device sync, optional zero-knowledge encryption, and full control over your data — all without a monthly subscription.
@@ -195,6 +177,28 @@ The full process takes 10 minutes: install Remotely Save, authenticate with Goog
 **Ready to go further?** Install [Remotely Save from the Obsidian community plugin browser](URL_PLACEHOLDER_5), pair it with a [Google Workspace account](URL_PLACEHOLDER_6) for expanded storage and team sharing, or explore [pCloud](URL_PLACEHOLDER_7) if you want a Google-free, end-to-end encrypted alternative. Your notes, your infrastructure, your rules.
 
 ---
+
+## Frequently Asked Questions
+
+### Is syncing Obsidian with Google Drive secure?
+
+Your files travel over HTTPS to Google Drive and are stored with Google's standard encryption at rest. If you want zero-knowledge encryption — meaning even Google can't read your notes — enable the passphrase option in Remotely Save. With a strong passphrase set, your vault is as secure as your password manager.
+
+### Does this work on both Android and iOS?
+
+Yes. Remotely Save supports Android and iOS through the Obsidian mobile apps. The setup process is identical on both platforms. iOS users should note that background sync is limited by iOS app lifecycle rules — open the app to trigger a sync.
+
+### Does Remotely Save sync plugin settings and themes?
+
+By default, it syncs the entire vault including the `.obsidian` folder, which contains your plugin configurations, themes, and hotkeys. You can exclude it using the Ignore Paths setting if you prefer to manage settings separately per device.
+
+### What happens if I run out of Google Drive storage?
+
+Sync will fail with a storage quota error. Remotely Save will log the error rather than silently skip files. Free up Drive space, or upgrade your Google storage. If you prefer not to use Google's ecosystem at all, [pCloud](URL_PLACEHOLDER_4) is a strong privacy-focused alternative — it offers end-to-end encrypted storage out of the box with a lifetime plan option, and Remotely Save supports it as a WebDAV backend.
+
+### Can I sync multiple vaults to the same Google Drive account?
+
+Yes. Set a unique **Remote Base Dir** name for each vault. They'll appear as separate subfolders inside `remotely-save` in your Drive. No interference between them.
 
 ## Related Reading
 

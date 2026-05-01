@@ -1,5 +1,6 @@
 ---
 title: "What is the Obsidian Git Plugin? (A Simple Explanation)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: what-is-the-obsidian-git-plugin-for
 description: "Position the plugin as the premier *free* alternative to the paid Obsidian Sync service, directly addressing the core user motivation of cost-savings."
@@ -129,25 +130,6 @@ Here's an honest accounting.
 
 ---
 
-## FAQ {#faq}
-
-**Q: Does the Obsidian Git plugin work on iPhone and Android?**
-Yes, but not as smoothly as on desktop. iOS users typically use the Working Copy app to handle the Git layer, while Android users rely on MGit or Termux. The plugin itself works on mobile Obsidian once the underlying Git connection is established. It's more steps than desktop, but it's well-documented in the community.
-
-**Q: Is my data private if I use a GitHub private repository?**
-A private repository is not visible to the public or other GitHub users. However, GitHub (owned by Microsoft) can technically access your data under their terms of service. If this is a concern, encrypt your vault before pushing or self-host a Gitea instance on a private VPS.
-
-**Q: How is this different from just using iCloud or Dropbox to sync my Obsidian vault?**
-Cloud folder sync (iCloud, Dropbox, OneDrive) only keeps your current files. If you delete something or overwrite it, it's gone or hidden in a limited trash history. Git keeps every version of every file since you initialized the repository. They solve the same immediate problem but at completely different depths.
-
-**Q: Can I use this plugin with GitLab or Bitbucket instead of GitHub?**
-Yes. The plugin works with any remote Git repository. GitLab and Bitbucket both offer free private repositories and are fully compatible. The setup steps are nearly identical; you're just pointing the remote URL at a different service.
-
-**Q: What happens if I edit the same note on two devices before syncing?**
-You'll get a merge conflict — Git's way of saying "I found two different versions of this file and don't know which one you want." The plugin will flag the conflict, and you'll need to open the file, review both versions (they're marked clearly in the text), keep the content you want, and commit the resolved file. It sounds intimidating but in practice takes two minutes.
-
----
-
 ## Conclusion
 
 The Obsidian Git plugin is, simply put, the best free infrastructure you can put under your note-taking practice. It solves backup, sync, and version history simultaneously — problems that other tools charge monthly fees to address — and it does so while keeping you in complete control of your data.
@@ -157,6 +139,28 @@ The setup takes one afternoon. The payoff lasts as long as you use Obsidian.
 Ready to get started? [Install the Obsidian Git plugin from the community plugins directory](URL_PLACEHOLDER_1), set up your [free private GitHub repository](URL_PLACEHOLDER_4), and if you want a solid Git foundation before you dive in, [this beginner Git course](URL_PLACEHOLDER_3) will have you comfortable with the concepts in an evening. Your future self — the one who needs to recover a note at 11pm on a deadline — will thank you.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Does the Obsidian Git plugin work on iPhone and Android?
+
+Yes, but not as smoothly as on desktop. iOS users typically use the Working Copy app to handle the Git layer, while Android users rely on MGit or Termux. The plugin itself works on mobile Obsidian once the underlying Git connection is established. It's more steps than desktop, but it's well-documented in the community.
+
+### Q: Is my data private if I use a GitHub private repository?
+
+A private repository is not visible to the public or other GitHub users. However, GitHub (owned by Microsoft) can technically access your data under their terms of service. If this is a concern, encrypt your vault before pushing or self-host a Gitea instance on a private VPS.
+
+### Q: How is this different from just using iCloud or Dropbox to sync my Obsidian vault?
+
+Cloud folder sync (iCloud, Dropbox, OneDrive) only keeps your current files. If you delete something or overwrite it, it's gone or hidden in a limited trash history. Git keeps every version of every file since you initialized the repository. They solve the same immediate problem but at completely different depths.
+
+### Q: Can I use this plugin with GitLab or Bitbucket instead of GitHub?
+
+Yes. The plugin works with any remote Git repository. GitLab and Bitbucket both offer free private repositories and are fully compatible. The setup steps are nearly identical; you're just pointing the remote URL at a different service.
+
+### Q: What happens if I edit the same note on two devices before syncing?
+
+You'll get a merge conflict — Git's way of saying "I found two different versions of this file and don't know which one you want." The plugin will flag the conflict, and you'll need to open the file, review both versions (they're marked clearly in the text), keep the content you want, and commit the resolved file. It sounds intimidating but in practice takes two minutes.
 
 ## Related Reading
 

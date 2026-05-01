@@ -1,5 +1,6 @@
 ---
 title: "The Power of Spaced Repetition in Your Second Brain"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-anki-vs-spaced-repetition-plugin
 description: "Provide a clear decision-making framework or flowchart to guide users to the right plugin based on their specific needs (e.g., 'Are you a long-time Anki user?' or 'Do you need a mobile-first review experience?')."
@@ -257,33 +258,31 @@ If you are a complete newcomer to both tools: **start with the SR plugin**. Get 
 
 ---
 
-## FAQ {#faq}
+## Frequently Asked Questions
 
-**Q1: Can I use both plugins at the same time in the same vault?**
+### Can I use both plugins at the same time in the same vault?
 
 Technically yes, but it creates confusion fast. If you use the Anki plugin for some notes and the SR plugin for others, you end up with two separate review queues in two different apps with no unified scheduling. Pick one per subject domain at minimum, or just commit to one system vault-wide.
 
-**Q2: Does the Spaced Repetition plugin work on Obsidian mobile?**
+### Does the Spaced Repetition plugin work on Obsidian mobile?
 
 Yes. If your vault syncs to your phone (via [Obsidian Sync](URL_PLACEHOLDER_13), iCloud, Syncthing, or any other solution), the SR plugin runs on Obsidian mobile and the review interface works. It's not a native mobile app experience, but it is functional for daily reviews.
 
-**Q3: What happens to my Anki cards if I change the note in Obsidian?**
+### What happens to my Anki cards if I change the note in Obsidian?
 
 The Obsidian to Anki plugin propagates updates on the next sync. If you edit the question or answer in Obsidian, the corresponding Anki card updates. Scheduling data in Anki is preserved — the plugin only touches the card content, not the review history.
 
-**Q4: Is the FSRS algorithm in the SR plugin as good as Anki's FSRS implementation?**
+### Is the FSRS algorithm in the SR plugin as good as Anki's FSRS implementation?
 
 Both implementations are based on the same open FSRS research by Jarrett Ye. Anki's implementation (FSRS 5 as of 2024) is more mature, includes parameter optimization based on your personal review history, and has had more testing at scale. The SR plugin's FSRS implementation is solid and a significant step up from SM-2, but for users who want optimized parameters based on thousands of personal data points, Anki's version has the edge.
 
-**Q5: Can I migrate my SR plugin cards to Anki later if I outgrow the plugin?**
+### Can I migrate my SR plugin cards to Anki later if I outgrow the plugin?
 
 Not automatically. Your cards exist as Markdown syntax inside notes, and there's no one-click export to Anki format. You would need to restructure those notes to use the Anki plugin's syntax and re-sync. It's doable but takes effort. This is one practical reason to decide your tool before you build a large card library, rather than after.
 
 ---
 
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All recommendations are based on genuine evaluation of the tools described.*
-
----
 
 ## Related Reading
 

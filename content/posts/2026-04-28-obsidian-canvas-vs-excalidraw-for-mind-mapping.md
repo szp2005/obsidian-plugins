@@ -1,5 +1,6 @@
 ---
 title: "Obsidian Canvas vs. Excalidraw: Which Visual Tool Wins?"
+author: "Alex Chen"
 date: 2026-04-28
 slug: obsidian-canvas-vs-excalidraw-for-mind-mapping
 description: "Focus heavily on the 'Native vs. Plugin' paradigm. Canvas is part of Obsidian's core, ensuring stability and seamless note embedding, while Excalidraw offers more powerful, standalone features at the cost of being a separate dependency."
@@ -180,29 +181,27 @@ If you want to go deeper on building a structured second brain that integrates b
 
 ---
 
-## FAQ
+## Frequently Asked Questions
 
-**Q1: Can I embed an Excalidraw diagram inside an Obsidian Canvas?**
+### Can I embed an Excalidraw diagram inside an Obsidian Canvas?
 
 Yes. You can embed an `.excalidraw` file as a media card on a Canvas. It renders as a static image preview. You won't be able to edit the Excalidraw drawing directly from within Canvas, but it works well for referencing diagrams inside a broader spatial layout.
 
-**Q2: Do Excalidraw files create backlinks in Obsidian?**
+### Do Excalidraw files create backlinks in Obsidian?
 
 They can. The Obsidian Excalidraw plugin indexes wikilinks (`[[note name]]`) typed inside text elements within Excalidraw drawings. These appear in Obsidian's backlink panel just like links in Markdown files. Canvas note-card references behave differently and are not consistently surfaced in the standard backlink index.
 
-**Q3: Which tool handles tablet/stylus input better?**
+### Which tool handles tablet/stylus input better?
 
 Excalidraw, by a clear margin. Its freehand drawing mode is designed for stylus input and produces clean stroke paths. Canvas has no drawing capability at all—you cannot sketch on a canvas surface, only arrange and connect rectangular cards.
 
-**Q4: Is Excalidraw safe to rely on long-term given it's a community plugin?**
+### Is Excalidraw safe to rely on long-term given it's a community plugin?
 
 The Obsidian Excalidraw plugin by Zsolt Viczián is one of the most downloaded community plugins in the ecosystem with an active development history spanning several years. The underlying Excalidraw library is a standalone open-source project with broad adoption outside Obsidian. The file format is plain JSON. The risk profile is low, but it is still a single-developer plugin, which is a dependency worth acknowledging.
 
-**Q5: Can I use both Canvas and Excalidraw in the same vault without conflicts?**
+### Can I use both Canvas and Excalidraw in the same vault without conflicts?
 
 Yes, completely. They use different file extensions, different rendering systems, and separate settings panels. Many users maintain a `/Maps` folder with both `.canvas` and `.excalidraw` files side by side. There are no known conflicts between the two.
-
----
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "What is the Obsidian Full Calendar Plugin?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: obsidian-full-calendar-plugin-review
 description: "Provide a 'zero-to-hero' setup guide that covers not just basic installation but also the often-tricky configuration of CalDAV and Google Calendar sync, with screenshots for each step."
@@ -76,6 +77,7 @@ Hit **Save**. Obsidian immediately creates a `.md` file in your chosen folder wi
 ```yaml
 ---
 title: Team standup
+author: "Alex Chen"
 date: 2024-08-15
 startTime: "09:00"
 endTime: "09:30"
@@ -246,24 +248,27 @@ For users who want to build this kind of system more formally, [this productivit
 
 ---
 
-## FAQ {#faq}
+## Frequently Asked Questions
 
-**Q: Is the Full Calendar plugin free?**
+### Q: Is the Full Calendar plugin free?
+
 Yes. It's fully open-source under the MIT license. There is no paid tier or pro version.
 
-**Q: Can I sync Full Calendar with Apple Calendar (iCloud)?**
+### Q: Can I sync Full Calendar with Apple Calendar (iCloud)?
+
 Yes, via CalDAV. Use `https://caldav.icloud.com/` as the server URL and an app-specific password from your Apple ID settings. The two-way sync works reliably.
 
-**Q: Does Full Calendar work on Obsidian mobile?**
+### Q: Does Full Calendar work on Obsidian mobile?
+
 The calendar renders on iOS and Android, but CalDAV sync can be unreliable on mobile due to network permission handling. Local events work fine. iCal read-only sync works on most setups.
 
-**Q: Will my events still exist if I uninstall the plugin?**
+### Q: Will my events still exist if I uninstall the plugin?
+
 Yes. Local events are standard markdown files with frontmatter. They remain in your vault and are fully readable without the plugin. External CalDAV events aren't stored locally.
 
-**Q: How is this different from using Obsidian's built-in daily notes calendar?**
-The built-in calendar plugin only lets you navigate to daily notes by date—it shows no events, allows no scheduling, and has no external sync. Full Calendar is a separate, more capable system that treats notes as schedulable events with times, drag-and-drop, and live sync.
+### Q: How is this different from using Obsidian's built-in daily notes calendar?
 
----
+The built-in calendar plugin only lets you navigate to daily notes by date—it shows no events, allows no scheduling, and has no external sync. Full Calendar is a separate, more capable system that treats notes as schedulable events with times, drag-and-drop, and live sync.
 
 ## Related Reading
 

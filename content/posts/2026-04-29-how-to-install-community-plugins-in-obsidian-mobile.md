@@ -1,5 +1,6 @@
 ---
 title: "Why Use Community Plugins on Obsidian Mobile?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-install-community-plugins-in-obsidian-mobile
 description: "Emphasize the security implications of turning off 'Restricted Mode' and provide a checklist for how to vet plugins for safety and mobile compatibility before installing."
@@ -157,25 +158,6 @@ Some plugins inject custom HTML that assumes a wide viewport. If buttons are cut
 
 ---
 
-## FAQ {#faq}
-
-**Q: Is it safe to install community plugins on Obsidian mobile?**
-Plugins in the official browser have passed a basic security review, but that review isn't exhaustive. Stick to plugins with recent updates, active maintainers, and community adoption. Don't install plugins from outside the official browser without understanding what you're doing.
-
-**Q: Why don't my desktop plugins appear on mobile?**
-Plugins must be installed separately on each device. If you use Obsidian Sync with the "sync plugins" option enabled, installed plugins and their enabled/disabled state will transfer — but you still need to make sure the sync has completed before expecting them to appear.
-
-**Q: Can I install plugins on Obsidian mobile without a computer?**
-Yes. The entire process — disabling Restricted Mode, browsing, installing, enabling — happens inside the mobile app. No desktop required.
-
-**Q: What is Restricted Mode and do I need to keep it off permanently?**
-Restricted Mode blocks all community plugins. Once you turn it off, it stays off until you manually re-enable it. You do not need to toggle it each session. Re-enable it only if you want to return to a plugins-free, lower-risk state.
-
-**Q: Why is a plugin working on Android but not iOS (or vice versa)?**
-iOS and Android use different rendering engines and file system permissions. Some plugins use APIs that behave differently on each platform. Check the plugin's GitHub issues for platform-specific bug reports, and test on both devices before relying on a plugin in your core workflow.
-
----
-
 ## Conclusion {#conclusion}
 
 Installing community plugins on Obsidian mobile is a five-minute process once you know where the controls are. The real work is choosing plugins that hold up on a small screen, making sure your sync setup actually propagates your settings, and knowing what to do when something breaks.
@@ -187,6 +169,28 @@ If syncing settings across devices is causing you headaches, [Obsidian Sync](URL
 Got a plugin question not covered here? Drop it in the comments or reach out — this guide is updated as the Obsidian mobile app evolves.
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Is it safe to install community plugins on Obsidian mobile?
+
+Plugins in the official browser have passed a basic security review, but that review isn't exhaustive. Stick to plugins with recent updates, active maintainers, and community adoption. Don't install plugins from outside the official browser without understanding what you're doing.
+
+### Q: Why don't my desktop plugins appear on mobile?
+
+Plugins must be installed separately on each device. If you use Obsidian Sync with the "sync plugins" option enabled, installed plugins and their enabled/disabled state will transfer — but you still need to make sure the sync has completed before expecting them to appear.
+
+### Q: Can I install plugins on Obsidian mobile without a computer?
+
+Yes. The entire process — disabling Restricted Mode, browsing, installing, enabling — happens inside the mobile app. No desktop required.
+
+### Q: What is Restricted Mode and do I need to keep it off permanently?
+
+Restricted Mode blocks all community plugins. Once you turn it off, it stays off until you manually re-enable it. You do not need to toggle it each session. Re-enable it only if you want to return to a plugins-free, lower-risk state.
+
+### Q: Why is a plugin working on Android but not iOS (or vice versa)?
+
+iOS and Android use different rendering engines and file system permissions. Some plugins use APIs that behave differently on each platform. Check the plugin's GitHub issues for platform-specific bug reports, and test on both devices before relying on a plugin in your core workflow.
 
 ## Related Reading
 

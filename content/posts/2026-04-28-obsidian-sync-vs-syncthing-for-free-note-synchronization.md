@@ -1,5 +1,6 @@
 ---
 title: "The Core Dilemma: Paid Convenience vs. Free Control"
+author: "Alex Chen"
 date: 2026-04-28
 slug: obsidian-sync-vs-syncthing-for-free-note-synchronization
 description: "Provide a 'Who is this for?' decision matrix that maps user personas (e.g., 'The Privacy-Conscious Tinkerer', 'The Busy Professional', 'The Cross-Platform User') to the most suitable sync solution, making the choice immediately actionable."
@@ -207,25 +208,6 @@ If you are still undecided, spend one month on Syncthing. If a conflict file str
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Is Syncthing safe enough for sensitive personal notes?**
-Yes. Syncthing uses TLS 1.3 for all transfers and verifies each device with a unique certificate. No third party can intercept your data in transit. The risk profile is similar to sending files over SSH — effectively zero for personal notes if your devices are not compromised.
-
-**Q2: Can I use Syncthing on iOS without Möbius Sync?**
-No. Apple's iOS restrictions prevent third-party apps from running persistent background processes that access arbitrary file locations. Möbius Sync is the only mature workaround. It functions acceptably for moderate usage but is inferior to Obsidian Sync's native iOS experience.
-
-**Q3: What happens to my notes if Obsidian the company shuts down?**
-Your notes remain on your device as plain Markdown files — you never lose them. Obsidian Sync would stop working, but you could switch to Syncthing or any other sync method the same day. This is one of the concrete benefits of Obsidian's local-first architecture.
-
-**Q4: Do I need an always-on device for Syncthing to work?**
-Not strictly. If your laptop and phone are both online at the same time and connected (on the same Wi-Fi or via Syncthing's relay servers), they will sync. The relay servers Syncthing uses for NAT traversal involve minimal data — metadata only, not file content. However, if you frequently switch between networks or need sync to happen overnight while your laptop is sleeping, an always-on node makes the experience dramatically more reliable.
-
-**Q5: Can I use both Obsidian Sync and Syncthing at the same time?**
-Technically yes, but do not do this. Running two sync tools on the same folder simultaneously creates racing conditions — both tools try to push changes at the same time, generating conflict files faster than you can delete them. Pick one and use it exclusively.
-
----
-
 ## Conclusion
 
 The obsidian sync vs syncthing debate does not have a universally correct answer, and anyone telling you otherwise is selling something. What exists is a straightforward trade: money for convenience, or time for control.
@@ -237,6 +219,28 @@ For Syncthing users who want that always-on reliability node, a [Raspberry Pi st
 Your notes are your thinking. Make sure they follow you reliably, whatever that takes.
 
 ---
+
+## Frequently Asked Questions
+
+### Is Syncthing safe enough for sensitive personal notes?
+
+Yes. Syncthing uses TLS 1.3 for all transfers and verifies each device with a unique certificate. No third party can intercept your data in transit. The risk profile is similar to sending files over SSH — effectively zero for personal notes if your devices are not compromised.
+
+### Can I use Syncthing on iOS without Möbius Sync?
+
+No. Apple's iOS restrictions prevent third-party apps from running persistent background processes that access arbitrary file locations. Möbius Sync is the only mature workaround. It functions acceptably for moderate usage but is inferior to Obsidian Sync's native iOS experience.
+
+### What happens to my notes if Obsidian the company shuts down?
+
+Your notes remain on your device as plain Markdown files — you never lose them. Obsidian Sync would stop working, but you could switch to Syncthing or any other sync method the same day. This is one of the concrete benefits of Obsidian's local-first architecture.
+
+### Do I need an always-on device for Syncthing to work?
+
+Not strictly. If your laptop and phone are both online at the same time and connected (on the same Wi-Fi or via Syncthing's relay servers), they will sync. The relay servers Syncthing uses for NAT traversal involve minimal data — metadata only, not file content. However, if you frequently switch between networks or need sync to happen overnight while your laptop is sleeping, an always-on node makes the experience dramatically more reliable.
+
+### Can I use both Obsidian Sync and Syncthing at the same time?
+
+Technically yes, but do not do this. Running two sync tools on the same folder simultaneously creates racing conditions — both tools try to push changes at the same time, generating conflict files faster than you can delete them. Pick one and use it exclusively.
 
 ## Related Reading
 

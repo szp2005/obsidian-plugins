@@ -1,5 +1,6 @@
 ---
 title: "Why Track Habits in Obsidian in 2024?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: best-obsidian-plugins-for-habit-tracking-2024
 description: "Provide a detailed comparison table rating each plugin on key criteria: setup difficulty, mobile-friendliness, visualization options, and maintenance level."
@@ -306,25 +307,6 @@ To go deeper on building systems in Obsidian beyond habit tracking, [this Obsidi
 
 ---
 
-## FAQ {#faq}
-
-**Q: Can I track habits in Obsidian on mobile without a separate app?**
-Yes, and the Habits plugin is the most mobile-friendly option. It relies on core checkboxes that render natively on iOS and Android. Tracker plugin charts can lag on mobile with large data sets. Dataview works on mobile but complex DataviewJS queries are slow on older phones. For reliable mobile tracking, pair any method with [Obsidian Sync](URL_PLACEHOLDER_2) to keep your vault consistent across devices.
-
-**Q: Do I need to know how to code to use Dataview for habit tracking?**
-You don't need to know JavaScript for basic TABLE and LIST queries—the syntax is closer to plain English than code. DataviewJS (for streak counters and custom calculations) requires basic JavaScript, but copy-paste templates work fine as a starting point. The examples in this article are production-ready.
-
-**Q: What's the best way to handle habit tracking if I miss a day?**
-Leave the frontmatter fields as `false` or leave checkboxes unchecked. Do not backfill. Accurate data—including gaps—is more useful than a sanitized record. Gaps tell you when life got hard. That context is exactly why tracking in Obsidian beats a standalone app.
-
-**Q: Is Obsidian better than Notion for habit tracking?**
-For habit tracking specifically, Notion's database views (gallery, calendar, timeline) are genuinely easier to configure for non-technical users. Obsidian wins on data ownership, offline access, mobile performance with Sync, and deep integration with notes and writing. If habit tracking is the *only* thing you're doing, Notion is simpler. If you want habits integrated into a second brain, Obsidian is stronger.
-
-**Q: How do I back up my habit tracking data?**
-Your data is already in plain `.md` files on your local drive. At minimum, store your vault in a folder that syncs with iCloud, Google Drive, or Dropbox. For a more robust setup, initialize a Git repository in your vault folder and commit changes daily (or use the Obsidian Git plugin to automate it). This gives you full version history in addition to backup.
-
----
-
 ## Conclusion {#conclusion}
 
 The best obsidian habit tracker is the one you'll actually use consistently. Start simple, get data in the vault, then build toward the complexity you earn by showing up.
@@ -342,6 +324,28 @@ Build the system. Ship it this week. Improve it next month.
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. All recommendations are based on genuine testing and use.*
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Can I track habits in Obsidian on mobile without a separate app?
+
+Yes, and the Habits plugin is the most mobile-friendly option. It relies on core checkboxes that render natively on iOS and Android. Tracker plugin charts can lag on mobile with large data sets. Dataview works on mobile but complex DataviewJS queries are slow on older phones. For reliable mobile tracking, pair any method with [Obsidian Sync](URL_PLACEHOLDER_2) to keep your vault consistent across devices.
+
+### Q: Do I need to know how to code to use Dataview for habit tracking?
+
+You don't need to know JavaScript for basic TABLE and LIST queries—the syntax is closer to plain English than code. DataviewJS (for streak counters and custom calculations) requires basic JavaScript, but copy-paste templates work fine as a starting point. The examples in this article are production-ready.
+
+### Q: What's the best way to handle habit tracking if I miss a day?
+
+Leave the frontmatter fields as `false` or leave checkboxes unchecked. Do not backfill. Accurate data—including gaps—is more useful than a sanitized record. Gaps tell you when life got hard. That context is exactly why tracking in Obsidian beats a standalone app.
+
+### Q: Is Obsidian better than Notion for habit tracking?
+
+For habit tracking specifically, Notion's database views (gallery, calendar, timeline) are genuinely easier to configure for non-technical users. Obsidian wins on data ownership, offline access, mobile performance with Sync, and deep integration with notes and writing. If habit tracking is the *only* thing you're doing, Notion is simpler. If you want habits integrated into a second brain, Obsidian is stronger.
+
+### Q: How do I back up my habit tracking data?
+
+Your data is already in plain `.md` files on your local drive. At minimum, store your vault in a folder that syncs with iCloud, Google Drive, or Dropbox. For a more robust setup, initialize a Git repository in your vault folder and commit changes daily (or use the Obsidian Git plugin to automate it). This gives you full version history in addition to backup.
 
 ## Related Reading
 

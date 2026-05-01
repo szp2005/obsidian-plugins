@@ -1,5 +1,6 @@
 ---
 title: "Why Your Obsidian Theme is More Than Just Eye Candy"
+author: "Alex Chen"
 date: 2026-04-29
 slug: most-beautiful-obsidian-themes
 description: "Categorize themes by aesthetic (e.g., 'Minimalist & Clean', 'Cozy Dark Mode', 'Colorful & Vibrant') to help users quickly find a style that matches their personality, rather than presenting one long, undifferentiated list."
@@ -273,25 +274,6 @@ If you want to take your vault's typography to a level no free theme bundle prov
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Will installing a theme affect my notes or vault data in any way?**
-No. Themes are pure CSS — they change how your vault looks, nothing else. Your notes, links, attachments, and plugin data are completely separate from theme files. You can install, switch, and uninstall themes freely with zero risk to your content.
-
-**Q2: My chosen theme looks broken after an Obsidian update. What do I do?**
-This happens when Obsidian's API changes and the theme CSS references old class names. Check the theme's GitHub repository for a recent commit or open issue. For themes on this list, the developers are active and typically push fixes within days of an Obsidian update. In the meantime, switch to a backup theme (Minimal is a safe fallback — it updates quickly).
-
-**Q3: Can I use multiple themes simultaneously or combine elements from two themes?**
-Not directly. Only one theme can be active at a time. However, you can use CSS snippets (`Settings → Appearance → CSS Snippets`) to override specific elements from your active theme. This lets you borrow, say, the heading style from one theme while keeping the color palette of another, if you are comfortable writing basic CSS.
-
-**Q4: Which theme is best for someone with dyslexia or reading difficulties?**
-Minimal and Things are the strongest starting points because their typography is clean and spacing is generous. In either theme, increase line height and font size via Style Settings. The warm-toned backgrounds of Everforest and Sanctum also reduce the harshness that pure white or pure black backgrounds create, which some users with reading sensitivities find helpful.
-
-**Q5: Do these themes work on Obsidian mobile (iOS/Android)?**
-Yes, all themes listed here support mobile. Quality varies slightly — some Style Settings options are desktop-only. The core visual experience (colors, typography, layout) transfers correctly to mobile. Minimal's companion plugin has specific mobile layout optimizations worth enabling if you use your phone vault regularly.
-
----
-
 ## Conclusion {#conclusion}
 
 The nine themes across three categories above cover the realistic spectrum of what beautiful Obsidian theming looks like in practice. To summarize the practical decision:
@@ -315,6 +297,28 @@ Your vault should look like *yours*. Go make it that way.
 *Affiliate disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no additional cost to you. We only recommend products we have independently evaluated.*
 
 ---
+
+## Frequently Asked Questions
+
+### Will installing a theme affect my notes or vault data in any way?
+
+No. Themes are pure CSS — they change how your vault looks, nothing else. Your notes, links, attachments, and plugin data are completely separate from theme files. You can install, switch, and uninstall themes freely with zero risk to your content.
+
+### My chosen theme looks broken after an Obsidian update. What do I do?
+
+This happens when Obsidian's API changes and the theme CSS references old class names. Check the theme's GitHub repository for a recent commit or open issue. For themes on this list, the developers are active and typically push fixes within days of an Obsidian update. In the meantime, switch to a backup theme (Minimal is a safe fallback — it updates quickly).
+
+### Can I use multiple themes simultaneously or combine elements from two themes?
+
+Not directly. Only one theme can be active at a time. However, you can use CSS snippets (`Settings → Appearance → CSS Snippets`) to override specific elements from your active theme. This lets you borrow, say, the heading style from one theme while keeping the color palette of another, if you are comfortable writing basic CSS.
+
+### Which theme is best for someone with dyslexia or reading difficulties?
+
+Minimal and Things are the strongest starting points because their typography is clean and spacing is generous. In either theme, increase line height and font size via Style Settings. The warm-toned backgrounds of Everforest and Sanctum also reduce the harshness that pure white or pure black backgrounds create, which some users with reading sensitivities find helpful.
+
+### Do these themes work on Obsidian mobile (iOS/Android)?
+
+Yes, all themes listed here support mobile. Quality varies slightly — some Style Settings options are desktop-only. The core visual experience (colors, typography, layout) transfers correctly to mobile. Minimal's companion plugin has specific mobile layout optimizations worth enabling if you use your phone vault regularly.
 
 ## Related Reading
 

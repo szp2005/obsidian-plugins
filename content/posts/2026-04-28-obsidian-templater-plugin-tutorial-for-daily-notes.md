@@ -1,5 +1,6 @@
 ---
 title: "Why Your Daily Notes Need the Templater Plugin"
+author: "Alex Chen"
 date: 2026-04-28
 slug: obsidian-templater-plugin-tutorial-for-daily-notes
 description: "Provide a downloadable 'Daily Note Starter Pack' with three levels of templates: beginner, intermediate, and advanced, so users can immediately implement the concepts."
@@ -119,7 +120,6 @@ tags: daily-note
 - [ ] 
 
 ## 📝 Notes
-
 
 ## 🌙 End of Day Reflection
 
@@ -246,7 +246,6 @@ where !completed and due = date("<% tp.date.now("YYYY-MM-DD") %>")
 
 ## 📝 Notes & Thoughts
 
-
 ## 🔗 Log
 - ← Yesterday: [[<% tp.date.now("YYYY-MM-DD", -1) %>]]
 - → Tomorrow: [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
@@ -359,25 +358,6 @@ The core plugin is fine for a meeting note with a static header. For daily notes
 
 ---
 
-## FAQ {#faq}
-
-**Q1: How is Templater different from the QuickAdd plugin?**
-QuickAdd is primarily a *capture* tool—quickly add tasks, notes, or entries to existing files via a menu. Templater is a *formatting* engine that transforms new files at creation time. They complement each other: use QuickAdd to quickly append a log entry to today's daily note, use Templater to define what that daily note looks like when created. Many power users run both.
-
-**Q2: Can I use Templater with the Periodic Notes plugin simultaneously?**
-Yes, and this is the recommended setup. Configure Periodic Notes to handle file creation (naming convention, folder placement) and Templater's Folder Templates to handle content injection. Disable the template setting inside Periodic Notes itself to avoid conflicts.
-
-**Q3: Will Templater break my vault if I make a syntax error in a template?**
-No. A broken template will throw an error notification and leave the file either empty or partially filled. Your vault itself is untouched. Keep a backup of working templates in a separate folder while experimenting—or use [Obsidian Sync](URL_PLACEHOLDER_5) which maintains version history.
-
-**Q4: How do I format dates in my local language?**
-Moment.js (which Templater uses internally) supports locale-aware formatting. Add `<%* moment.locale('de'); %>` (replace 'de' with your locale code) at the top of your template, then use `tp.date.now("dddd")` for localized day names.
-
-**Q5: Is there a way to run a template automatically every morning without manually opening Obsidian?**
-Templater can't wake your computer, but it can auto-create today's note the moment Obsidian opens. Enable **Periodic Notes → Open daily note on startup** and combine with Templater's folder trigger. The note is created and templated within seconds of Obsidian launching. For truly automated data ingestion (calendar events, weather pre-fetched), pair with [Make.com](URL_PLACEHOLDER_7) running on a schedule.
-
----
-
 ## Conclusion {#conclusion}
 
 The core Templates plugin is a sticky note. Templater is a document assembly system. For daily notes—files you create every day, review every evening, and mine for insights every week—that difference compounds fast.
@@ -394,6 +374,28 @@ The productivity systems taught in courses like [Building a Second Brain](URL_PL
 The templates in this guide are copy-paste ready. The only thing left is to open Obsidian and create today's note.
 
 ---
+
+## Frequently Asked Questions
+
+### How is Templater different from the QuickAdd plugin?
+
+QuickAdd is primarily a *capture* tool—quickly add tasks, notes, or entries to existing files via a menu. Templater is a *formatting* engine that transforms new files at creation time. They complement each other: use QuickAdd to quickly append a log entry to today's daily note, use Templater to define what that daily note looks like when created. Many power users run both.
+
+### Can I use Templater with the Periodic Notes plugin simultaneously?
+
+Yes, and this is the recommended setup. Configure Periodic Notes to handle file creation (naming convention, folder placement) and Templater's Folder Templates to handle content injection. Disable the template setting inside Periodic Notes itself to avoid conflicts.
+
+### Will Templater break my vault if I make a syntax error in a template?
+
+No. A broken template will throw an error notification and leave the file either empty or partially filled. Your vault itself is untouched. Keep a backup of working templates in a separate folder while experimenting—or use [Obsidian Sync](URL_PLACEHOLDER_5) which maintains version history.
+
+### How do I format dates in my local language?
+
+Moment.js (which Templater uses internally) supports locale-aware formatting. Add `<%* moment.locale('de'); %>` (replace 'de' with your locale code) at the top of your template, then use `tp.date.now("dddd")` for localized day names.
+
+### Is there a way to run a template automatically every morning without manually opening Obsidian?
+
+Templater can't wake your computer, but it can auto-create today's note the moment Obsidian opens. Enable **Periodic Notes → Open daily note on startup** and combine with Templater's folder trigger. The note is created and templated within seconds of Obsidian launching. For truly automated data ingestion (calendar events, weather pre-fetched), pair with [Make.com](URL_PLACEHOLDER_7) running on a schedule.
 
 ## Related Reading
 

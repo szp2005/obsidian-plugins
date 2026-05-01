@@ -425,30 +425,6 @@ Don't install all of them at once. Add one, use it for two weeks, decide if it e
 
 ---
 
-## FAQ {#faq}
-
-**Q: Do I need a UID prefix in my filenames if Obsidian already handles links by filename?**
-
-Technically no — Obsidian resolves links by filename and will update them automatically when you rename a file. The UID in the YAML frontmatter (not the filename) is the real stable identifier. Use it for querying and for future-proofing export to other tools. The filename prefix (`ZK - `) is purely for visual sorting, not technical necessity.
-
-**Q: How many permanent notes do I need before the system becomes useful?**
-
-Most people start feeling the value somewhere between 50–100 notes. Below that, the graph is too sparse to surface unexpected connections. The linking habit is more important than note count — a vault of 200 linked notes beats 2,000 unlinked ones every time.
-
-**Q: Should Literature Notes go in the Zettelkasten (Permanent folder) or stay separate?**
-
-Keep them separate (`20 - Literature`). A Literature Note is a processed reference — it belongs to a source. A Permanent Note belongs to an idea. The connection between them goes in the `source` YAML field of the permanent note and in the **My Permanent Notes** section of the literature note. Mixing them blurs the distinction and makes Dataview queries messier.
-
-**Q: Can I migrate an existing Obsidian vault into this structure without starting over?**
-
-Yes. Create the folder structure, move existing notes into the appropriate folders in batches, then run Linter manually on each folder to normalize the YAML. The most important migration task is adding the `status: draft` field to existing notes so the Dataview query catches them. Use Obsidian's **Find and Replace** in files to add missing frontmatter fields across multiple notes at once.
-
-**Q: Is Dataview worth learning if I'm not technical?**
-
-The queries in this guide are all you need for 90% of use cases. Copy-paste them, change the folder path and tag names to match yours, and they'll work. You don't need to understand the full Dataview query language to benefit from it. If you want more, the [official Dataview documentation](URL_PLACEHOLDER_3) is straightforward and has a query builder section with examples.
-
----
-
 ## Conclusion {#conclusion}
 
 Here's what you've built:
@@ -470,6 +446,28 @@ Now close this tab and set up the vault. The reading is the easy part.
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. We only recommend tools we've actually used.*
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Do I need a UID prefix in my filenames if Obsidian already handles links by filename?
+
+Technically no — Obsidian resolves links by filename and will update them automatically when you rename a file. The UID in the YAML frontmatter (not the filename) is the real stable identifier. Use it for querying and for future-proofing export to other tools. The filename prefix (`ZK - `) is purely for visual sorting, not technical necessity.
+
+### Q: How many permanent notes do I need before the system becomes useful?
+
+Most people start feeling the value somewhere between 50–100 notes. Below that, the graph is too sparse to surface unexpected connections. The linking habit is more important than note count — a vault of 200 linked notes beats 2,000 unlinked ones every time.
+
+### Q: Should Literature Notes go in the Zettelkasten (Permanent folder) or stay separate?
+
+Keep them separate (`20 - Literature`). A Literature Note is a processed reference — it belongs to a source. A Permanent Note belongs to an idea. The connection between them goes in the `source` YAML field of the permanent note and in the **My Permanent Notes** section of the literature note. Mixing them blurs the distinction and makes Dataview queries messier.
+
+### Q: Can I migrate an existing Obsidian vault into this structure without starting over?
+
+Yes. Create the folder structure, move existing notes into the appropriate folders in batches, then run Linter manually on each folder to normalize the YAML. The most important migration task is adding the `status: draft` field to existing notes so the Dataview query catches them. Use Obsidian's **Find and Replace** in files to add missing frontmatter fields across multiple notes at once.
+
+### Q: Is Dataview worth learning if I'm not technical?
+
+The queries in this guide are all you need for 90% of use cases. Copy-paste them, change the folder path and tag names to match yours, and they'll work. You don't need to understand the full Dataview query language to benefit from it. If you want more, the [official Dataview documentation](URL_PLACEHOLDER_3) is straightforward and has a query builder section with examples.
 
 ## Related Reading
 

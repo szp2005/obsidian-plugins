@@ -1,5 +1,6 @@
 ---
 title: "Why Your Old Research Workflow is Broken (and How Obsidian Fixes It)"
+author: "Alex Chen"
 date: 2026-04-29
 slug: top-5-obsidian-plugins-for-academic-research
 description: "Competitors provide lists, but fail to show how the plugins integrate into a single, powerful workflow. Our angle will focus on the synergy between the top 5 plugins."
@@ -83,6 +84,7 @@ If every literature note you create has a frontmatter field like this:
 ```yaml
 ---
 title: "Mechanisms of Social Trust Formation"
+author: "Alex Chen"
 authors: "Chen, Liu"
 year: 2021
 status: "read"
@@ -142,6 +144,7 @@ The key insight is that Canvas doesn't replace your notes, it *reads* them. When
 ```markdown
 ---
 title: "{{VALUE:Title}}"
+author: "Alex Chen"
 authors: "{{VALUE:Authors}}"
 year: {{VALUE:Year}}
 journal: "{{VALUE:Journal}}"
@@ -231,25 +234,6 @@ That's the difference between a plugin list and a research system.
 
 ---
 
-## FAQ {#faq}
-
-**Q: Do I need to pay for Obsidian to use these plugins?**
-Obsidian is free for personal use, and all five plugins described here work on the free tier. The only paid Obsidian product worth considering for researchers is [Obsidian Sync](URL_PLACEHOLDER_1), which provides encrypted vault synchronization across devices. It costs $10/month, but if you work on multiple machines, the alternative (setting up Dropbox sync manually) has edge cases that can corrupt your vault.
-
-**Q: Is Zotero Integration the same as the Citations plugin?**
-No. The Citations plugin is an older community plugin that has largely been superseded by Zotero Integration (formerly called "Obsidian Zotero Desktop Connector"). Zotero Integration is actively maintained, supports live annotation import, and has better template support via Templater. If you're setting up fresh, use Zotero Integration.
-
-**Q: Can I use these plugins if I'm not a PhD student — for example, as an undergraduate?**
-Yes, though some are more immediately useful depending on how many sources you're managing. Templater and Omnisearch add value from day one regardless of vault size. Dataview becomes genuinely useful once you have 30–40 notes with consistent structure. If you're writing a thesis or a major research paper at any level, all five are worth installing.
-
-**Q: How do these plugins handle languages other than English?**
-Markdown is language-agnostic, and Obsidian renders Unicode correctly, so notes in Arabic, Chinese, German, or any other language work fine. Omnisearch's PDF indexing handles multi-language text reasonably well for born-digital PDFs. Templater templates can be written in any language. The one limitation is that Dataview queries use English syntax (the query language itself is English), but your note *content* can be in any language.
-
-**Q: What's the best way to back up an Obsidian vault used for research?**
-Your vault is a folder of plain text files plus attachments. Any backup solution that syncs folders works: Time Machine on Mac, File History on Windows, or cloud storage like Backblaze. If you use [Obsidian Sync](URL_PLACEHOLDER_1), it maintains 12 months of version history, which has saved more than a few researchers who accidentally deleted a large note. Treat your vault like you'd treat your dissertation draft: three separate backup locations minimum.
-
----
-
 ## Conclusion {#conclusion}
 
 The five plugins covered in this article — Zotero Integration, Dataview, Canvas, Templater, and Omnisearch — are not five separate tools you bolt onto Obsidian. They're a system. Zotero Integration brings the raw material in. Templater makes sure it's structured consistently. Dataview turns that structure into queryable intelligence. Canvas transforms linear notes into visible arguments. Omnisearch makes the whole archive instantly retrievable.
@@ -269,6 +253,28 @@ Start with one plugin. Install Templater, build a single literature note templat
 *Disclosure: Some links in this article are affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All plugin recommendations are based on practical research use — none are sponsored.*
 
 ---
+
+## Frequently Asked Questions
+
+### Q: Do I need to pay for Obsidian to use these plugins?
+
+Obsidian is free for personal use, and all five plugins described here work on the free tier. The only paid Obsidian product worth considering for researchers is [Obsidian Sync](URL_PLACEHOLDER_1), which provides encrypted vault synchronization across devices. It costs $10/month, but if you work on multiple machines, the alternative (setting up Dropbox sync manually) has edge cases that can corrupt your vault.
+
+### Q: Is Zotero Integration the same as the Citations plugin?
+
+No. The Citations plugin is an older community plugin that has largely been superseded by Zotero Integration (formerly called "Obsidian Zotero Desktop Connector"). Zotero Integration is actively maintained, supports live annotation import, and has better template support via Templater. If you're setting up fresh, use Zotero Integration.
+
+### Q: Can I use these plugins if I'm not a PhD student — for example, as an undergraduate?
+
+Yes, though some are more immediately useful depending on how many sources you're managing. Templater and Omnisearch add value from day one regardless of vault size. Dataview becomes genuinely useful once you have 30–40 notes with consistent structure. If you're writing a thesis or a major research paper at any level, all five are worth installing.
+
+### Q: How do these plugins handle languages other than English?
+
+Markdown is language-agnostic, and Obsidian renders Unicode correctly, so notes in Arabic, Chinese, German, or any other language work fine. Omnisearch's PDF indexing handles multi-language text reasonably well for born-digital PDFs. Templater templates can be written in any language. The one limitation is that Dataview queries use English syntax (the query language itself is English), but your note *content* can be in any language.
+
+### Q: What's the best way to back up an Obsidian vault used for research?
+
+Your vault is a folder of plain text files plus attachments. Any backup solution that syncs folders works: Time Machine on Mac, File History on Windows, or cloud storage like Backblaze. If you use [Obsidian Sync](URL_PLACEHOLDER_1), it maintains 12 months of version history, which has saved more than a few researchers who accidentally deleted a large note. Treat your vault like you'd treat your dissertation draft: three separate backup locations minimum.
 
 ## Related Reading
 

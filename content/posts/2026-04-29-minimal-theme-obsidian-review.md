@@ -1,5 +1,6 @@
 ---
 title: "What is the Obsidian Minimal Theme? An Overview"
+author: "Alex Chen"
 date: 2026-04-29
 slug: minimal-theme-obsidian-review
 description: "Provide a detailed performance analysis, including startup time and resource usage with the theme enabled versus the default theme."
@@ -189,24 +190,27 @@ For writers, researchers, and PKM builders who spend real time inside their vaul
 
 ---
 
-## FAQ {#faq}
+## Frequently Asked Questions
 
-**Q: Is the Obsidian Minimal theme free?**
+### Q: Is the Obsidian Minimal theme free?
+
 A: Yes, completely free. It's installed through Obsidian's built-in Community Themes browser. No account, no payment, no license required.
 
-**Q: Do I need to know CSS to use Minimal effectively?**
+### Q: Do I need to know CSS to use Minimal effectively?
+
 A: No. The Minimal Theme Settings plugin and Style Settings plugin handle the most important customizations through a point-and-click UI. CSS knowledge is only needed if you want changes beyond what those plugins expose, and the community snippet library covers most edge cases.
 
-**Q: Will Minimal break when Obsidian updates?**
+### Q: Will Minimal break when Obsidian updates?
+
 A: It's the lowest-risk theme for this. Kepano is Obsidian's CEO, meaning he has direct awareness of upcoming API changes. The theme has a consistent track record of fast post-update compatibility fixes.
 
-**Q: How does Minimal compare to the Things theme for writers specifically?**
+### Q: How does Minimal compare to the Things theme for writers specifically?
+
 A: Things has a warmer, more editorial default look and requires less initial configuration. Minimal has a higher customization ceiling and better companion tooling. If you write a lot and want the interface to get out of your way completely, Minimal wins. If you want something that looks great immediately without touching settings, Things is a reasonable alternative.
 
-**Q: Can I use Minimal theme on Obsidian mobile?**
-A: Yes. Mobile rendering is explicitly supported and the theme looks consistent across iOS and Android. Focus mode and most Style Settings options also apply on mobile, though the UI for accessing them differs slightly.
+### Q: Can I use Minimal theme on Obsidian mobile?
 
----
+A: Yes. Mobile rendering is explicitly supported and the theme looks consistent across iOS and Android. Focus mode and most Style Settings options also apply on mobile, though the UI for accessing them differs slightly.
 
 ## Related Reading
 

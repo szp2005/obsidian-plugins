@@ -1,5 +1,6 @@
 ---
 title: "Why Turn Your Obsidian Vault into a Public Blog?"
+author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-publish-obsidian-notes-to-a-blog
 description: "Provide a decision-making framework with a comparison table (Cost vs. Technical Skill vs. Customization) to help users choose the right publishing method for their specific needs, rather than promoting a single solution."
@@ -224,6 +225,7 @@ Every note you publish should have a frontmatter block:
 ```yaml
 ---
 title: "How Spaced Repetition Rewired My Study Habits"
+author: "Alex Chen"
 description: "A practical breakdown of how I use Anki and Obsidian together to retain 90% of what I read."
 date: 2024-03-15
 tags: [learning, memory, obsidian]
@@ -329,30 +331,6 @@ For advanced setups requiring more compute or custom server logic, consider [Dig
 
 ---
 
-## FAQ {#faq}
-
-**Q1: Can I keep some notes private when publishing?**
-
-Yes, with all methods. Obsidian Publish only publishes notes you explicitly select. With SSGs, use `draft: true` in frontmatter, put private notes in an ignored folder (defined in your SSG config or `.gitignore`), or maintain a separate "public" subfolder in your vault.
-
-**Q2: Will my `[[wikilinks]]` break when published?**
-
-They will unless you handle the conversion. Quartz converts them automatically. For Hugo, use the `hugo-obsidian` CLI tool as a pre-processing step. For Astro, install `remark-wiki-link`. For Jekyll, use the `jekyll-wikilinks` gem. Run a local build and audit all links before going live.
-
-**Q3: How do I handle images and attachments from my vault?**
-
-Copy your attachments folder into your SSG's content or static directory. In Quartz, place images in `/content` alongside your notes. Update any image paths in frontmatter or note bodies if your folder structure changes. Obsidian Publish handles attachments automatically.
-
-**Q4: Is Obsidian Publish worth the cost if I only have 20 notes?**
-
-Probably yes, for the first six months. The friction saved is worth $8/month while you're figuring out your publishing workflow. Once you have a consistent habit and more content, evaluate the SSG migration.
-
-**Q5: How do I migrate from Obsidian Publish to Quartz later?**
-
-Your notes are already in Markdown — that's the hard part done. Export or copy your vault's Markdown files into Quartz's `/content` directory, run the build, and check for broken links. The main adjustment is updating any Obsidian Publish-specific settings in your frontmatter and configuring your new custom domain DNS.
-
----
-
 ## Conclusion {#conclusion}
 
 Publishing your Obsidian notes isn't a complicated problem — it's a decision problem. The tools all work. The question is what you're optimizing for.
@@ -368,6 +346,28 @@ Ready to buy your domain and make it official? [Grab a `.com` for under $10 on N
 *Disclosure: This article contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you.*
 
 ---
+
+## Frequently Asked Questions
+
+### Can I keep some notes private when publishing?
+
+Yes, with all methods. Obsidian Publish only publishes notes you explicitly select. With SSGs, use `draft: true` in frontmatter, put private notes in an ignored folder (defined in your SSG config or `.gitignore`), or maintain a separate "public" subfolder in your vault.
+
+### Will my `[[wikilinks]]` break when published?
+
+They will unless you handle the conversion. Quartz converts them automatically. For Hugo, use the `hugo-obsidian` CLI tool as a pre-processing step. For Astro, install `remark-wiki-link`. For Jekyll, use the `jekyll-wikilinks` gem. Run a local build and audit all links before going live.
+
+### How do I handle images and attachments from my vault?
+
+Copy your attachments folder into your SSG's content or static directory. In Quartz, place images in `/content` alongside your notes. Update any image paths in frontmatter or note bodies if your folder structure changes. Obsidian Publish handles attachments automatically.
+
+### Is Obsidian Publish worth the cost if I only have 20 notes?
+
+Probably yes, for the first six months. The friction saved is worth $8/month while you're figuring out your publishing workflow. Once you have a consistent habit and more content, evaluate the SSG migration.
+
+### How do I migrate from Obsidian Publish to Quartz later?
+
+Your notes are already in Markdown — that's the hard part done. Export or copy your vault's Markdown files into Quartz's `/content` directory, run the build, and check for broken links. The main adjustment is updating any Obsidian Publish-specific settings in your frontmatter and configuring your new custom domain DNS.
 
 ## Related Reading
 
