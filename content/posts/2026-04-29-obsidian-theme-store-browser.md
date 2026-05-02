@@ -1,5 +1,5 @@
 ---
-images: ["/og/obsidian-theme-store-browser.png"]
+images: ["/og/obsidian-theme-store-browser.webp"]
 title: "Two Ways to Browse Obsidian Themes: In-App vs. Web"
 author: "Alex Chen"
 date: 2026-04-29

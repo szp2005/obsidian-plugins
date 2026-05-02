@@ -1,5 +1,5 @@
 ---
-images: ["/og/how-to-install-community-plugins-in-obsidian-mobile.png"]
+images: ["/og/how-to-install-community-plugins-in-obsidian-mobile.webp"]
 title: "Why Use Community Plugins on Obsidian Mobile?"
 author: "Alex Chen"
 date: 2026-04-29

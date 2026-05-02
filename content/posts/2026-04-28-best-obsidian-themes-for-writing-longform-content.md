@@ -1,5 +1,5 @@
 ---
-images: ["/og/best-obsidian-themes-for-writing-longform-content.png"]
+images: ["/og/best-obsidian-themes-for-writing-longform-content.webp"]
 title: "Why Your Theme is Your Most Important Writing Tool in Obsidian"
 author: "Alex Chen"
 date: 2026-04-28

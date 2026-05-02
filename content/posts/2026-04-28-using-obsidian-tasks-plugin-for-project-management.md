@@ -1,5 +1,5 @@
 ---
-images: ["/og/using-obsidian-tasks-plugin-for-project-management.png"]
+images: ["/og/using-obsidian-tasks-plugin-for-project-management.webp"]
 title: "Why Manage Projects in Obsidian? The Power of a Unified System"
 author: "Alex Chen"
 date: 2026-04-28

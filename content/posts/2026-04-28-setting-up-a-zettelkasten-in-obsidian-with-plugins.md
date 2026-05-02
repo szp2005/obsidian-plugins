@@ -1,5 +1,5 @@
 ---
-images: ["/og/setting-up-a-zettelkasten-in-obsidian-with-plugins.png"]
+images: ["/og/setting-up-a-zettelkasten-in-obsidian-with-plugins.webp"]
 title: "Why Build a Zettelkasten in Obsidian?"
 date: 2026-04-28
 slug: setting-up-a-zettelkasten-in-obsidian-with-plugins

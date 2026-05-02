@@ -1,5 +1,5 @@
 ---
-images: ["/og/best-obsidian-plugins-for-habit-tracking-2024.png"]
+images: ["/og/best-obsidian-plugins-for-habit-tracking-2024.webp"]
 title: "Why Track Habits in Obsidian in 2024?"
 author: "Alex Chen"
 date: 2026-04-29

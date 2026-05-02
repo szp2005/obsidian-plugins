@@ -1,5 +1,5 @@
 ---
-images: ["/og/obsidian-periodic-notes-plugin-review.png"]
+images: ["/og/obsidian-periodic-notes-plugin-review.webp"]
 title: "What is the Periodic Notes Plugin (And Why It's a Game-Changer)"
 author: "Alex Chen"
 date: 2026-04-29

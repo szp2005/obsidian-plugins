@@ -1,5 +1,5 @@
 ---
-images: ["/og/most-beautiful-obsidian-themes.png"]
+images: ["/og/most-beautiful-obsidian-themes.webp"]
 title: "Why Your Obsidian Theme is More Than Just Eye Candy"
 author: "Alex Chen"
 date: 2026-04-29

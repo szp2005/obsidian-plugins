@@ -1,5 +1,5 @@
 ---
-images: ["/og/obsidian-templater-plugin-tutorial-for-daily-notes.png"]
+images: ["/og/obsidian-templater-plugin-tutorial-for-daily-notes.webp"]
 title: "Why Your Daily Notes Need the Templater Plugin"
 author: "Alex Chen"
 date: 2026-04-28
