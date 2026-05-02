@@ -1,4 +1,5 @@
 ---
+images: ["/og/how-to-customize-obsidian-appearance-with-css-snippets.png"]
 title: "What Are CSS Snippets and Why Should You Care?"
 author: "Alex Chen"
 date: 2026-04-29

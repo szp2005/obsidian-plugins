@@ -1,4 +1,5 @@
 ---
+images: ["/og/how-to-publish-obsidian-notes-to-a-blog.png"]
 title: "Why Turn Your Obsidian Vault into a Public Blog?"
 author: "Alex Chen"
 date: 2026-04-29

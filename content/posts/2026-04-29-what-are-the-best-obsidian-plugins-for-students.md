@@ -1,4 +1,5 @@
 ---
+images: ["/og/what-are-the-best-obsidian-plugins-for-students.png"]
 title: "Why Obsidian is a Student's Secret Weapon"
 author: "Alex Chen"
 date: 2026-04-29

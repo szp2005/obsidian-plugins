@@ -1,4 +1,5 @@
 ---
+images: ["/og/top-5-obsidian-plugins-for-academic-research.png"]
 title: "Why Your Old Research Workflow is Broken (and How Obsidian Fixes It)"
 author: "Alex Chen"
 date: 2026-04-29

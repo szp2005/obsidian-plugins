@@ -1,4 +1,5 @@
 ---
+images: ["/og/how-to-find-obsidian-plugin-documentation.png"]
 title: "The Easiest Method: Finding Docs Directly Inside Obsidian"
 author: "Alex Chen"
 date: 2026-04-29
