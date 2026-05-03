@@ -3,6 +3,16 @@ languageCode = "en-us"
 title = "Obsidian Plugins Guide"
 theme = "PaperMod"
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+  [languages.zh-cn]
+    languageName = "简体中文"
+    weight = 2
+    contentDir = "content/zh-cn"
+
 [params]
   description = "The best Obsidian plugins, themes, and tips to supercharge your note-taking."
   ShowReadingTime = true

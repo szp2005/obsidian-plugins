@@ -1,4 +1,5 @@
 ---
+images: ["/og/obsidian-dataview-for-project-tracking.webp"]
 title: "Obsidian Dataview for Project Tracking: Complete Setup Guide"
 description: "Learn how to use Obsidian Dataview for project tracking to automate your workflows, manage tasks across notes, and build dynamic dashboards in 2026."
 pubDate: "2026-05-01"

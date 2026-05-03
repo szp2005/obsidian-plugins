@@ -1,4 +1,5 @@
 ---
+images: ["/og/best-obsidian-tasks-plugin-setup-2026.webp"]
 title: "Best Obsidian Tasks Plugin Setup 2026: Complete Guide"
 description: "Discover the best Obsidian Tasks plugin setup for 2026. Learn how to combine Dataview, daily notes, and advanced queries for a perfect productivity system."
 pubDate: "2026-05-01"

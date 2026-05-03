@@ -1,4 +1,5 @@
 ---
+images: ["/og/templater-plugin-tutorial-for-obsidian-power-users.webp"]
 title: "Templater Plugin Tutorial for Obsidian Power Users: Advanced Automation"
 description: "Master the Templater plugin for Obsidian with this advanced tutorial. Learn to automate workflows, use Javascript snippets, and build complex note templates."
 pubDate: "2026-05-01"

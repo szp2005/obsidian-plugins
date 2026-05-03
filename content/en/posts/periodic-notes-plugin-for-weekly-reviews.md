@@ -1,4 +1,5 @@
 ---
+images: ["/og/periodic-notes-plugin-weekly-reviews.webp"]
 title: "Periodic Notes Plugin Complete Guide: Mastering Weekly Reviews"
 description: "Learn how to configure the Periodic Notes plugin for weekly reviews in Obsidian. Streamline your productivity system with templates and automated workflows."
 pubDate: "2026-05-01"

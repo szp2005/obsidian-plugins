@@ -1,4 +1,5 @@
 ---
+images: ["/og/obsidian-calendar-plugin-for-time-based-notes.webp"]
 title: "Obsidian Calendar Plugin Complete Guide: Time-Based Notes"
 description: "Master the Obsidian Calendar plugin for time-based notes. Learn how to visualize your daily, weekly, and monthly workflows directly within your vault."
 pubDate: "2026-05-01"
