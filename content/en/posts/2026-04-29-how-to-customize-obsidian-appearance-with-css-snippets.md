@@ -4,7 +4,7 @@ title: "What Are CSS Snippets and Why Should You Care?"
 author: "Alex Chen"
 date: 2026-04-29
 slug: how-to-customize-obsidian-appearance-with-css-snippets
-description: "Provide a downloadable 'CSS Snippet Starter Pack' with the 5 most popular customizations for immediate use."
+description: "Customize Obsidian appearance with CSS snippets, from setup and selectors to a starter pack of practical vault styling tweaks."
 keywords: ["Obsidian CSS theme", "Obsidian vault appearance", "CSS snippets for Obsidian", "Obsidian custom theme", ".obsidian/snippets folder", "Obsidian developer console", "Change font in Obsidian", "Obsidian styling"]
 draft: false
 type: "informational"
