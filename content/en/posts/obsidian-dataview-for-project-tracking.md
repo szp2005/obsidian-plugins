@@ -9,6 +9,8 @@ slug: "obsidian-dataview-for-project-tracking"
 type: "informational"
 ---
 
+_As an Amazon Associate we earn from qualifying purchases. This post may contain affiliate links._
+
 # Obsidian Dataview for Project Tracking: Complete Setup Guide
 
 > **Quick Answer:** Obsidian Dataview for project tracking transforms your plain-text markdown vault into a dynamic, queryable database. By adding structured metadata (YAML or inline fields) to your notes, you can write simple DQL (Dataview Query Language) scripts to automatically aggregate tasks, track project statuses, and generate real-time dashboards across your entire workspace.
@@ -183,7 +185,7 @@ While the exact JavaScript syntax is beyond the scope of a basic setup, utilizin
 
 ## Practical Setup Advice and Limitations
 
-Implementing Obsidian Dataview for project tracking requires discipline. The software is highly capable, but user error in data entry is the primary cause of broken dashboards. 
+Implementing Obsidian Dataview for project tracking requires discipline. The software is highly capable, but user error in data entry is the primary cause of broken dashboards.
 
 1. **Limit query scopes for performance:** Running `FROM ""` searches your entire vault. If you have 10,000 notes, this will cause noticeable lag every time you open your dashboard. Always restrict Dataview queries to specific directories (e.g., `FROM "Projects/Active"`) or specific tags (`FROM #project`).
 2. **Standardize date formats:** Dataview expects ISO 8601 formatting for dates (`YYYY-MM-DD`). If you write `May 1st, 2026` in your metadata, Dataview will treat it as a plain string, breaking your date-based filtering and sorting algorithms.
@@ -192,7 +194,7 @@ Implementing Obsidian Dataview for project tracking requires discipline. The sof
 
 ## Building Your Permanent Tracking System
 
-Shifting your project tracking entirely into plain text safeguards your data against proprietary lock-in. By leveraging standard metadata and Dataview's highly customizable queries, you maintain absolute control over how your work is visualized. Start with a single table tracking active files, enforce a strict YAML template, and slowly introduce task aggregation and dynamic sorting as your workflow demands. 
+Shifting your project tracking entirely into plain text safeguards your data against proprietary lock-in. By leveraging standard metadata and Dataview's highly customizable queries, you maintain absolute control over how your work is visualized. Start with a single table tracking active files, enforce a strict YAML template, and slowly introduce task aggregation and dynamic sorting as your workflow demands.
 
 ## Frequently Asked Questions
 
@@ -210,3 +212,14 @@ Dataview is a query engine that uses code blocks to display data in standard for
 
 ### Are Dataview queries future-proof?
 The queries themselves are specific to the Dataview plugin. However, the data powering the queries (your markdown tasks and YAML frontmatter) is universal. If Dataview ever ceases to exist, your raw data remains perfectly intact and accessible by any other text parser.
+
+---
+
+## Related Reading
+
+- [Best Obsidian Plugins for Students: Academic Success Guide](/posts/what-are-the-best-obsidian-plugins-for-students/)
+
+- [The Easiest Method: Finding Docs Directly Inside Obsidian](/posts/how-to-find-obsidian-plugin-documentation/)
+
+- [Best Obsidian Tasks Plugin Setup 2026: Complete Guide](/posts/best-obsidian-tasks-plugin-setup-2026/)
+- [Obsidian Calendar Plugin Complete Guide: Time-Based Notes](/posts/obsidian-calendar-plugin-for-time-based-notes/)

@@ -9,6 +9,8 @@ slug: "obsidian-calendar-plugin-for-time-based-notes"
 type: "informational"
 ---
 
+_As an Amazon Associate we earn from qualifying purchases. This post may contain affiliate links._
+
 # Obsidian Calendar Plugin Complete Guide: Time-Based Notes
 
 > **Quick Answer:** The Obsidian Calendar plugin provides a visual monthly grid in your sidebar that connects directly to your daily, weekly, and monthly notes. By clicking on specific dates, you can seamlessly create, navigate, and manage time-based Markdown files, transforming your vault from a static knowledge base into a dynamic, time-aware management system.
@@ -21,7 +23,7 @@ This guide explores how to set up, configure, and optimize the Obsidian Calendar
 
 ## Understanding the Core Value of Time-Based Notes
 
-Before configuring the plugin, it is important to understand why time-based notes are a structural advantage in a personal knowledge management (PKM) system. 
+Before configuring the plugin, it is important to understand why time-based notes are a structural advantage in a personal knowledge management (PKM) system.
 
 When you create a note for a specific date (e.g., `2026-05-01`), it acts as a chronological index. Any concept you learn, person you meet, or task you complete on that day can be linked back to that daily note. Over time, this creates a timeline of your intellectual and professional life.
 
@@ -56,7 +58,7 @@ The true power of the Calendar plugin lies in its visual feedback mechanisms. It
 
 ### Word Count and Note Length
 
-In the plugin settings, you can enable "Show words" to visualize the length of your daily notes. The calendar adds small dots beneath the date numbers. 
+In the plugin settings, you can enable "Show words" to visualize the length of your daily notes. The calendar adds small dots beneath the date numbers.
 * A small dot indicates a brief note.
 * Larger or multiple dots indicate extensive writing. 
 
@@ -64,7 +66,7 @@ This feature provides immediate visual feedback on your journaling habit or prod
 
 ### Task Management Integration
 
-If you use Obsidian for task management (using the standard `- [ ]` markdown syntax), the Calendar plugin can reflect your completion rates. 
+If you use Obsidian for task management (using the standard `- [ ]` markdown syntax), the Calendar plugin can reflect your completion rates.
 
 By enabling task tracking in the Calendar settings, the color of the dots will change based on your progress. Incomplete tasks might show as a hollow circle or specific color, while a fully cleared list turns the indicator solid. This transforms the calendar from a mere navigation tool into an accountability dashboard.
 
@@ -85,7 +87,7 @@ Create a specific template for your weekly notes that includes sections for week
 
 ### Transitioning to Periodic Notes
 
-If you find yourself relying heavily on weekly, monthly, and even quarterly notes, you should consider transitioning from the core Daily Notes plugin to the community **Periodic Notes** plugin. 
+If you find yourself relying heavily on weekly, monthly, and even quarterly notes, you should consider transitioning from the core Daily Notes plugin to the community **Periodic Notes** plugin.
 
 The Calendar plugin integrates flawlessly with Periodic Notes. Periodic Notes allows you to define separate folders, templates, and formats for every level of temporal granularity (Daily, Weekly, Monthly, Quarterly, Yearly). Once configured, clicking on the month header in the Calendar plugin will automatically generate or open your Monthly review note based on your Periodic Notes settings.
 
@@ -112,7 +114,7 @@ Instead of writing one massive summary at the end of the day, use your daily not
 
 ### Avoiding Folder Clutter
 
-If you create a note every single day, your vault will quickly accumulate hundreds of files. It is highly recommended to route all time-based notes into a designated folder (e.g., `Timeline/Daily`). 
+If you create a note every single day, your vault will quickly accumulate hundreds of files. It is highly recommended to route all time-based notes into a designated folder (e.g., `Timeline/Daily`).
 
 Do not mix your evergreen notes, project files, and conceptual writing with your daily notes. Keep them separate, and use wikilinks (`[[Link]]`) within your daily notes to connect temporal events to permanent concepts.
 
@@ -150,3 +152,12 @@ Ensure that you have enabled "Show words" or the task tracking features in the C
 
 ### Does the Calendar plugin work on Obsidian Mobile?
 Yes, the Calendar plugin is fully supported on the Obsidian mobile apps for iOS and Android. You can access it by swiping from the right edge of the screen to open the right sidebar, providing the same visual navigation as the desktop version.
+
+---
+
+## Related Reading
+
+- [Obsidian CSS Snippets: Master Your Vault's Appearance](/posts/how-to-customize-obsidian-appearance-with-css-snippets/)
+
+- [Best Obsidian Tasks Plugin Setup 2026: Complete Guide](/posts/best-obsidian-tasks-plugin-setup-2026/)
+- [Periodic Notes Plugin Complete Guide: Mastering Weekly Reviews](/posts/periodic-notes-plugin-weekly-reviews/)

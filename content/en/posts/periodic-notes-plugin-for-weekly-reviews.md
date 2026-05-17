@@ -9,6 +9,8 @@ slug: "periodic-notes-plugin-weekly-reviews"
 type: "review"
 ---
 
+_As an Amazon Associate we earn from qualifying purchases. This post may contain affiliate links._
+
 # Periodic Notes Plugin Complete Guide: Mastering Weekly Reviews
 
 > **Quick Answer:** The Periodic Notes plugin for weekly reviews allows Obsidian users to automatically generate and link time-based notes beyond the core daily notes feature. By configuring custom templates and folder structures for weekly, monthly, and yearly intervals, you can create a frictionless system for reflecting on past accomplishments and planning future tasks.
@@ -115,7 +117,7 @@ If you are using the Calendar plugin (highly recommended), go to its settings an
 
 ## Designing the Perfect Weekly Review Template
 
-The effectiveness of your weekly review depends entirely on the template you use. A blank page invites procrastination; a well-structured template guides you through the review process systematically. 
+The effectiveness of your weekly review depends entirely on the template you use. A blank page invites procrastination; a well-structured template guides you through the review process systematically.
 
 When leveraging the Periodic Notes plugin for weekly reviews alongside Templater, your template should automate the context gathering so you can focus on reflection.
 
@@ -140,7 +142,7 @@ Once the past is processed, shift focus to the future. Identify your top three p
 
 ## Practical Advice for Maintaining Your Habit
 
-Setting up the technical infrastructure using the Periodic Notes plugin for weekly reviews is only half the battle. The true challenge is returning to this system consistently every week. 
+Setting up the technical infrastructure using the Periodic Notes plugin for weekly reviews is only half the battle. The true challenge is returning to this system consistently every week.
 
 **Schedule a Non-Negotiable Recurring Appointment**
 Treat your weekly review like a meeting with your most important client: yourself. Block out 45 to 60 minutes on your calendar every Friday afternoon or Sunday evening. Friday afternoons are excellent because you are closing out the workweek while context is fresh, allowing you to fully disconnect over the weekend. Sunday evenings work well for users who prefer to use the review as a launchpad for Monday morning.
@@ -170,3 +172,12 @@ The best approach is to use the Obsidian Tasks plugin. Instead of manually copyi
 
 ### Can I have different templates for different days of the week?
 While Periodic Notes handles the weekly, monthly, and yearly templates, you would use Templater's folder-based templates or script functions to dynamically apply different templates based on the specific day of the week if you are modifying your daily notes workflow.
+
+---
+
+## Related Reading
+
+- [Obsidian Dataview for Project Tracking: Complete Setup Guide](/posts/obsidian-dataview-for-project-tracking/)
+
+- [Best Obsidian Tasks Plugin Setup 2026: Complete Guide](/posts/best-obsidian-tasks-plugin-setup-2026/)
+- [Obsidian Calendar Plugin Complete Guide: Time-Based Notes](/posts/obsidian-calendar-plugin-for-time-based-notes/)

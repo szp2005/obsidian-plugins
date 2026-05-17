@@ -9,6 +9,8 @@ slug: "templater-plugin-tutorial-for-obsidian-power-users"
 type: "informational"
 ---
 
+_As an Amazon Associate we earn from qualifying purchases. This post may contain affiliate links._
+
 # Templater Plugin Tutorial for Obsidian Power Users: Advanced Automation
 
 > **Quick Answer:** The Templater plugin transforms Obsidian from a static text editor into an automated knowledge system. By leveraging its execution commands (`<%* %>`), system modules (`tp.file`, `tp.date`), and Javascript capabilities, power users can automate file routing, generate dynamic metadata, prompt for user inputs, and pull data from external APIs directly into their notes.
@@ -37,14 +39,14 @@ Before diving into complex scripts, you must configure Templater to allow maximu
 
 ### Enabling Javascript Execution
 
-To unlock Templater's true potential, you must allow it to run Javascript. 
+To unlock Templater's true potential, you must allow it to run Javascript.
 1. Navigate to **Settings > Templater**.
 2. Scroll down to the **User System Command Execution** and **Enable User System Command Execution** toggle. Turn this on.
 3. If you plan to use custom scripts saved in your vault, configure the **Script files folder location**. Create a folder named `Scripts` or `Templater Scripts` in your vault and point this setting to it.
 
 ### Folder Templates and Automation
 
-One of the most powerful features to enable is **Folder Templates**. This allows you to bind a specific template to a specific folder. 
+One of the most powerful features to enable is **Folder Templates**. This allows you to bind a specific template to a specific folder.
 1. Toggle on **Trigger Templater on new file creation**.
 2. Enable **Enable Folder Templates**.
 3. Add a rule: For example, map the folder `Meetings` to the template `Templates/Meeting Note.md`.
@@ -59,7 +61,7 @@ Templater uses specific tags to distinguish between regular text and code to be 
 - `<%* %>` — **Execution:** Runs Javascript logic but does *not* output text directly. Used for variable declaration, `if/else` statements, API calls, and file system operations.
 - `<%+ %>` — **Dynamic:** Updates dynamically every time you switch to Reading mode. (Use sparingly, as it can slow down rendering on large notes).
 
-### Dynamic Metadata with `tp.date` and `tp.file`
+### Dynamic Metadata with tp.date and tp.file
 
 Generating metadata is the most common use case, but we can push it further than basic dates.
 
@@ -72,7 +74,7 @@ To calculate future or past dates dynamically (e.g., setting a review date 7 day
 To get the date of the previous Monday, useful for weekly review templates:
 `<% tp.date.weekday("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>`
 
-### User Input and Prompts with `tp.system`
+### User Input and Prompts with tp.system
 
 Hardcoding values into templates limits their reusability. The `tp.system` module allows you to interact with the template as it runs.
 
@@ -100,7 +102,7 @@ status: <% selectedStatus %>
 ```
 When this template runs, a command-palette-style window will appear, forcing you to choose one of the predefined statuses.
 
-## Execution Commands: The Power of `<%* %>`
+## Execution Commands: The Power of <% %>
 
 Execution commands are where Obsidian transforms into an IDE. Because you are writing standard Javascript, you can utilize conditional logic, loops, and asynchronous operations.
 
@@ -232,7 +234,7 @@ When the template runs, Templater executes the external script, reaches out to t
 
 ## Conclusion
 
-The native capabilities of Obsidian are highly capable, but mastering the Templater plugin bridges the gap between a passive text repository and an active operating system for your thoughts. By utilizing execution commands (`<%* %>`), conditional logic, system prompts, and custom user scripts, you can automate away the friction of file management and metadata formatting. 
+The native capabilities of Obsidian are highly capable, but mastering the Templater plugin bridges the gap between a passive text repository and an active operating system for your thoughts. By utilizing execution commands (`<%* %>`), conditional logic, system prompts, and custom user scripts, you can automate away the friction of file management and metadata formatting.
 
 Start by implementing folder templates for your most common note types, then gradually introduce `tp.system.suggester` to standardize your tags. As your familiarity with Javascript grows, you will find that almost any workflow bottleneck in Obsidian can be solved with a well-crafted Templater script.
 
@@ -252,3 +254,14 @@ Yes, Templater works on both iOS and Android. However, complex scripts that rely
 
 ### How do I debug a failing Templater script?
 If a script fails, press `Ctrl + Shift + I` (or `Cmd + Option + I` on Mac) to open the Obsidian Developer Console. Templater will output detailed error messages there, pointing you to the exact line in your script or template that caused the Javascript execution to break.
+
+---
+
+## Related Reading
+
+- [Obsidian Plugins for Academic Research: 5 Best Tools](/posts/top-5-obsidian-plugins-for-academic-research/)
+
+- [Two Ways to Browse Obsidian Themes: In-App vs. Web](/posts/obsidian-theme-store-browser/)
+
+- [Best Obsidian Tasks Plugin Setup 2026: Complete Guide](/posts/best-obsidian-tasks-plugin-setup-2026/)
+- [Obsidian Calendar Plugin Complete Guide: Time-Based Notes](/posts/obsidian-calendar-plugin-for-time-based-notes/)

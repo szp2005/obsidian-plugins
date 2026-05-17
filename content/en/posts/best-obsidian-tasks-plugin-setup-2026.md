@@ -9,6 +9,8 @@ slug: "best-obsidian-tasks-plugin-setup-2026"
 type: "review"
 ---
 
+_As an Amazon Associate we earn from qualifying purchases. This post may contain affiliate links._
+
 # Best Obsidian Tasks Plugin Setup 2026: Complete Guide
 
 > **Quick Answer:** The best Obsidian Tasks plugin setup for 2026 combines the core **Tasks** plugin with **Dataview** for advanced dashboarding, **Day Planner** for time-blocking, and **Periodic Notes** for automated routines. This specific stack transforms standard markdown checklists into a fully queryable, dynamic task management system that rivals dedicated applications like Todoist or TickTick, all while keeping your data local.
@@ -191,3 +193,12 @@ Yes. Navigate to the Tasks plugin settings and define your custom character mapp
 
 ### How do I integrate recurring tasks?
 Use the Tasks plugin modal or type the recurrence syntax manually (e.g., `🔁 every week on Friday`). When you check off a recurring task, the plugin automatically appends the completion date to the current task and generates a duplicate task below it with the next calculated due date.
+
+---
+
+## Related Reading
+
+- [Templater Plugin Tutorial for Obsidian Power Users: Advanced Automation](/posts/templater-plugin-tutorial-for-obsidian-power-users/)
+
+- [Obsidian Calendar Plugin Complete Guide: Time-Based Notes](/posts/obsidian-calendar-plugin-for-time-based-notes/)
+- [Periodic Notes Plugin Complete Guide: Mastering Weekly Reviews](/posts/periodic-notes-plugin-weekly-reviews/)
